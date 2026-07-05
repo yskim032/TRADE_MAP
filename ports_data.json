@@ -1,0 +1,5002 @@
+[
+  {
+    "code": "AEAJM",
+    "name": "AJMAN",
+    "country": "UNITED ARAB EMIRATES",
+    "lat": 25.3936557,
+    "lng": 55.4451432,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "AEAUH",
+    "name": "ABU DHABI",
+    "country": "UNITED ARAB EMIRATES",
+    "lat": 24.46667,
+    "lng": 54.36667,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "AEFJR",
+    "name": "AL - FUJAYRAH",
+    "country": "UNITED ARAB EMIRATES",
+    "lat": 25.11667,
+    "lng": 56.33333,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "AEJEA",
+    "name": "JEBEL ALI",
+    "country": "UNITED ARAB EMIRATES",
+    "lat": 25.0338168,
+    "lng": 55.1366041,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "AEKLF",
+    "name": "KHOR AL FAKKAN",
+    "country": "UNITED ARAB EMIRATES",
+    "lat": 25.33333,
+    "lng": 56.35,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "AERKT",
+    "name": "RAS AL KHAIMAH",
+    "country": "UNITED ARAB EMIRATES",
+    "lat": 25.78333,
+    "lng": 55.95,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "AESHJ",
+    "name": "SHARJAH",
+    "country": "UNITED ARAB EMIRATES",
+    "lat": 25.35,
+    "lng": 55.38333,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ALDRZ",
+    "name": "DURRES",
+    "country": "ALBANIA",
+    "lat": 41.313255,
+    "lng": 19.4462348,
+    "region": "ADR/CEMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ALMBM",
+    "name": "PORTO ROMANO",
+    "country": "ALBANIA",
+    "lat": 41.3667,
+    "lng": 19.4289,
+    "region": "ADR/CEMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "AOLAD",
+    "name": "LUANDA",
+    "country": "ANGOLA",
+    "lat": -8.8272699,
+    "lng": 13.2439512,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "AOLOB",
+    "name": "LOBITO",
+    "country": "ANGOLA",
+    "lat": -12.3506867,
+    "lng": 13.5464318,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "AOMSZ",
+    "name": "NAMIBE",
+    "country": "ANGOLA",
+    "lat": -15.195064,
+    "lng": 12.1458085,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ARBUE",
+    "name": "BUENOS AIRES",
+    "country": "ARGENTINA",
+    "lat": -34.6095579,
+    "lng": -58.3887904,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ARCMP",
+    "name": "CAMPANA",
+    "country": "ARGENTINA",
+    "lat": -34.15,
+    "lng": -58.95,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ARLPG",
+    "name": "LA PLATA",
+    "country": "ARGENTINA",
+    "lat": -34.85,
+    "lng": -57.88333,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ARROS",
+    "name": "ROSARIO",
+    "country": "ARGENTINA",
+    "lat": -32.95,
+    "lng": -60.65,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ASPPG",
+    "name": "PAGO PAGO",
+    "country": "AMERICAN SAMOA",
+    "lat": -14.279444444,
+    "lng": -170.700555555,
+    "region": "Fiji",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "AUADL",
+    "name": "ADELAIDE",
+    "country": "AUSTRALIA",
+    "lat": -34.91667,
+    "lng": 138.58333,
+    "region": "East Australia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "AUBEL",
+    "name": "BELL BAY",
+    "country": "AUSTRALIA",
+    "lat": -41.131424,
+    "lng": 146.8657946,
+    "region": "East Australia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "AUBNE",
+    "name": "BRISBANE",
+    "country": "AUSTRALIA",
+    "lat": -27.46667,
+    "lng": 153.01667,
+    "region": "East Australia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "AUEPR",
+    "name": "ESPERANCE",
+    "country": "AUSTRALIA",
+    "lat": -33.858228,
+    "lng": 121.8931606,
+    "region": "West Australia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "AUFRE",
+    "name": "FREMANTLE",
+    "country": "AUSTRALIA",
+    "lat": -32.0534086,
+    "lng": 115.7586172,
+    "region": "West Australia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "AUMEL",
+    "name": "MELBOURNE",
+    "country": "AUSTRALIA",
+    "lat": -37.81667,
+    "lng": 144.96667,
+    "region": "East Australia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BBBGI",
+    "name": "BRIDGETOWN",
+    "country": "BARBADOS",
+    "lat": 13.0977832,
+    "lng": -59.6184184,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BDCGP",
+    "name": "CHATTOGRAM",
+    "country": "BANGLADESH",
+    "lat": 22.33333,
+    "lng": 91.83333,
+    "region": "South India+Sri Lanka",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BDMGL",
+    "name": "MONGLA",
+    "country": "BANGLADESH",
+    "lat": 22.4679228,
+    "lng": 89.6040074,
+    "region": "South India+Sri Lanka",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BEANR",
+    "name": "ANTWERP",
+    "country": "BELGIUM",
+    "lat": 51.21667,
+    "lng": 4.41667,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BGBOJ",
+    "name": "BURGAS",
+    "country": "BULGARIA",
+    "lat": 42.4936616,
+    "lng": 27.4721276,
+    "region": "B/SEA",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BHKBS",
+    "name": "BAHRAIN",
+    "country": "BAHRAIN",
+    "lat": 26.2,
+    "lng": 50.61667,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BJCOO",
+    "name": "COTONOU",
+    "country": "BENIN",
+    "lat": 6.3676953,
+    "lng": 2.4252507,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BNMUA",
+    "name": "MUARA",
+    "country": "BRUNEI DARUSSALAM",
+    "lat": 5.0262617,
+    "lng": 115.0702263,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BRIBB",
+    "name": "IMBITUBA",
+    "country": "BRAZIL",
+    "lat": -28.23333,
+    "lng": -48.66667,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BRIGI",
+    "name": "ITAGUAI",
+    "country": "BRAZIL",
+    "lat": -22.86667,
+    "lng": -43.76667,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BRIOA",
+    "name": "ITAPOA",
+    "country": "BRAZIL",
+    "lat": -26.1116267,
+    "lng": -48.6056373,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BRITJ",
+    "name": "ITAJAI",
+    "country": "BRAZIL",
+    "lat": -26.9,
+    "lng": -48.65,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BRMAO",
+    "name": "MANAUS",
+    "country": "BRAZIL",
+    "lat": -3.13333,
+    "lng": -60.01667,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BRNVT",
+    "name": "NAVEGANTES",
+    "country": "BRAZIL",
+    "lat": -26.88333,
+    "lng": -48.63333,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BRPEC",
+    "name": "PECEM",
+    "country": "BRAZIL",
+    "lat": -3.51667,
+    "lng": -38.86667,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BRPNG",
+    "name": "PARANAGUA",
+    "country": "BRAZIL",
+    "lat": -25.5,
+    "lng": -48.51667,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BRPVH",
+    "name": "PORTO VELHO",
+    "country": "BRAZIL",
+    "lat": -8.76667,
+    "lng": -63.81667,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BRRIG",
+    "name": "RIO GRANDE",
+    "country": "BRAZIL",
+    "lat": -32.05,
+    "lng": -52.08333,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BRRIO",
+    "name": "RIO DE JANEIRO",
+    "country": "BRAZIL",
+    "lat": -22.86667,
+    "lng": -43.21667,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BRSSA",
+    "name": "SALVADOR",
+    "country": "BRAZIL",
+    "lat": -13.0,
+    "lng": -38.48333,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BRSSZ",
+    "name": "SANTOS",
+    "country": "BRAZIL",
+    "lat": -23.93333,
+    "lng": -46.31667,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BRSUA",
+    "name": "SUAPE",
+    "country": "BRAZIL",
+    "lat": -8.4,
+    "lng": -34.96667,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BSFPO",
+    "name": "FREEPORT, GRAND BAHAMA",
+    "country": "BAHAMAS",
+    "lat": 26.52,
+    "lng": -78.66,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BSNAS",
+    "name": "NASSAU",
+    "country": "BAHAMAS",
+    "lat": 25.08333,
+    "lng": -77.35,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "BZBZE",
+    "name": "BELIZE CITY",
+    "country": "BELIZE",
+    "lat": 17.5002768,
+    "lng": -88.1988737,
+    "region": "Central America",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CACBK",
+    "name": "CORNER BROOK",
+    "country": "CANADA",
+    "lat": 48.95,
+    "lng": -57.93333,
+    "region": "Canada EC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CAHAL",
+    "name": "HALIFAX",
+    "country": "CANADA",
+    "lat": 44.648618,
+    "lng": -63.5859487,
+    "region": "Canada EC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CAMTR",
+    "name": "MONTREAL",
+    "country": "CANADA",
+    "lat": 45.5031824,
+    "lng": -73.5698065,
+    "region": "Canada EC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CAPRR",
+    "name": "PRINCE RUPERT",
+    "country": "CANADA",
+    "lat": 54.3126572,
+    "lng": -130.32549,
+    "region": "Canada WC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CASJB",
+    "name": "SAINT JOHN",
+    "country": "CANADA",
+    "lat": 45.26667,
+    "lng": -66.06667,
+    "region": "Canada EC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CDMAT",
+    "name": "MATADI",
+    "country": "CONGO, THE DEMOCRATIC REPUBLIC OF THE",
+    "lat": -5.8256559,
+    "lng": 13.4609047,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CGPNR",
+    "name": "POINTE NOIRE",
+    "country": "CONGO",
+    "lat": -4.8,
+    "lng": 11.85,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CIABJ",
+    "name": "ABIDJAN",
+    "country": "COTE D'IVOIRE",
+    "lat": 5.33333,
+    "lng": -4.01667,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CISPY",
+    "name": "SAN-PEDRO",
+    "country": "COTE D'IVOIRE",
+    "lat": 4.73333,
+    "lng": -6.61667,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CKRAR",
+    "name": "RAROTONGA",
+    "country": "COOK ISLANDS",
+    "lat": -21.2368312,
+    "lng": -159.7774744,
+    "region": "New Zealand",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CLANF",
+    "name": "ANTOFAGASTA",
+    "country": "CHILE",
+    "lat": -23.63333,
+    "lng": -70.38333,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CLARI",
+    "name": "ARICA",
+    "country": "CHILE",
+    "lat": -18.48333,
+    "lng": -70.31667,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CLCNL",
+    "name": "CORONEL",
+    "country": "CHILE",
+    "lat": -37.01667,
+    "lng": -73.15,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CLCQQ",
+    "name": "COQUIMBO",
+    "country": "CHILE",
+    "lat": -29.96667,
+    "lng": -71.33333,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CLIQQ",
+    "name": "IQUIQUE",
+    "country": "CHILE",
+    "lat": -20.21667,
+    "lng": -70.13333,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CLLQN",
+    "name": "LIRQUEN",
+    "country": "CHILE",
+    "lat": -36.7,
+    "lng": -72.98333,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CLPAG",
+    "name": "PUERTO ANGAMOS",
+    "country": "CHILE",
+    "lat": -23.08333,
+    "lng": -70.45,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CLSAI",
+    "name": "SAN ANTONIO",
+    "country": "CHILE",
+    "lat": -33.6,
+    "lng": -71.6,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CLSVE",
+    "name": "SAN VICENTE",
+    "country": "CHILE",
+    "lat": -36.7,
+    "lng": -73.13333,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CMDLA",
+    "name": "DOUALA",
+    "country": "CAMEROON",
+    "lat": 4.0429389,
+    "lng": 9.7062018,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CMKBI",
+    "name": "KRIBI",
+    "country": "CAMEROON",
+    "lat": 2.9434098,
+    "lng": 9.9126989,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CNDCB",
+    "name": "DA CHAN BAY",
+    "country": "CHINA",
+    "lat": 22.53333,
+    "lng": 113.86667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CNDLC",
+    "name": "DALIAN",
+    "country": "CHINA",
+    "lat": 38.91666667,
+    "lng": 121.68333333,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CNFOC",
+    "name": "FUZHOU",
+    "country": "CHINA",
+    "lat": 25.935,
+    "lng": 119.663333333,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CNLYG",
+    "name": "LIANYUNGANG",
+    "country": "CHINA",
+    "lat": 34.71667,
+    "lng": 119.43333,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CNNGB",
+    "name": "NINGBO",
+    "country": "CHINA",
+    "lat": 29.93333333,
+    "lng": 121.83333333,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CNNSA",
+    "name": "NANSHA",
+    "country": "CHINA",
+    "lat": 22.63591,
+    "lng": 113.6782041,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CNQZH",
+    "name": "QINZHOU",
+    "country": "CHINA",
+    "lat": 21.9647835,
+    "lng": 108.620787,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CNRZH",
+    "name": "RIZHAO",
+    "country": "CHINA",
+    "lat": 35.38333,
+    "lng": 119.53333,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CNSHA",
+    "name": "SHANGHAI",
+    "country": "CHINA",
+    "lat": 31.198056,
+    "lng": 121.336389,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CNSHK",
+    "name": "SHEKOU",
+    "country": "CHINA",
+    "lat": 22.48333,
+    "lng": 113.91667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CNSWA",
+    "name": "SHANTOU",
+    "country": "CHINA",
+    "lat": 23.55297,
+    "lng": 116.50589,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CNTAO",
+    "name": "QINGDAO",
+    "country": "CHINA",
+    "lat": 36.3483,
+    "lng": 120.059,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "COBUN",
+    "name": "BUENAVENTURA",
+    "country": "COLOMBIA",
+    "lat": 3.8881929,
+    "lng": -77.0738324,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "COCTG",
+    "name": "CARTAGENA",
+    "country": "COLOMBIA",
+    "lat": 10.4265566,
+    "lng": -75.5441671,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CRCAL",
+    "name": "CALDERA",
+    "country": "COSTA RICA",
+    "lat": 9.95,
+    "lng": -84.71667,
+    "region": "Central America",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CRLIO",
+    "name": "PUERTO LIMON",
+    "country": "COSTA RICA",
+    "lat": 10.0,
+    "lng": -83.03333,
+    "region": "Central America",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CRMOB",
+    "name": "MOIN",
+    "country": "COSTA RICA",
+    "lat": 10.0,
+    "lng": -83.08333,
+    "region": "Central America",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CVMIN",
+    "name": "MINDELO",
+    "country": "CAPE VERDE",
+    "lat": 16.88333,
+    "lng": -25.0,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CVRAI",
+    "name": "PRAIA",
+    "country": "CAPE VERDE",
+    "lat": 14.9162811,
+    "lng": -23.5095095,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "CYLMS",
+    "name": "LIMASSOL",
+    "country": "CYPRUS",
+    "lat": 34.68333,
+    "lng": 33.05,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DEBRV",
+    "name": "BREMERHAVEN",
+    "country": "GERMANY",
+    "lat": 53.53333,
+    "lng": 8.6,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DEHAM",
+    "name": "HAMBURG",
+    "country": "GERMANY",
+    "lat": 53.51667,
+    "lng": 9.93333,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DELBC",
+    "name": "LUBECK",
+    "country": "GERMANY",
+    "lat": 53.866444,
+    "lng": 10.684738,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DJJIB",
+    "name": "DJIBOUTI",
+    "country": "DJIBOUTI",
+    "lat": 11.5936903,
+    "lng": 43.1472724,
+    "region": "East Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DKAAL",
+    "name": "AALBORG",
+    "country": "DENMARK",
+    "lat": 57.0462626,
+    "lng": 9.9215263,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DKAAR",
+    "name": "AARHUS",
+    "country": "DENMARK",
+    "lat": 56.15,
+    "lng": 10.21667,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DKCPH",
+    "name": "COPENHAGEN",
+    "country": "DENMARK",
+    "lat": 55.66667,
+    "lng": 12.58333,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DKFRC",
+    "name": "FREDERICIA",
+    "country": "DENMARK",
+    "lat": 55.565268,
+    "lng": 9.7562169,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DKKAL",
+    "name": "KALUNDBORG",
+    "country": "DENMARK",
+    "lat": 55.6833793,
+    "lng": 11.0993619,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DKSKA",
+    "name": "SKAGEN",
+    "country": "DENMARK",
+    "lat": 57.7259703,
+    "lng": 10.5844602,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DMRSU",
+    "name": "ROSEAU",
+    "country": "DOMINICA",
+    "lat": 15.2991923,
+    "lng": -61.3872868,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DOCAU",
+    "name": "CAUCEDO",
+    "country": "DOMINICAN REPUBLIC",
+    "lat": 18.41667,
+    "lng": -69.63333,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DOHAI",
+    "name": "RIO HAINA",
+    "country": "DOMINICAN REPUBLIC",
+    "lat": 18.41306,
+    "lng": -70.01743,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DZAAE",
+    "name": "ANNABA",
+    "country": "ALGERIA",
+    "lat": 36.8982165,
+    "lng": 7.7549272,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DZALG",
+    "name": "ALGER",
+    "country": "ALGERIA",
+    "lat": 36.75,
+    "lng": 3.05,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DZBJA",
+    "name": "BEJAIA",
+    "country": "ALGERIA",
+    "lat": 36.7511783,
+    "lng": 5.0643687,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DZDJE",
+    "name": "DJEN-DJEN",
+    "country": "ALGERIA",
+    "lat": 36.8239022,
+    "lng": 5.8907936,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DZGHZ",
+    "name": "GHAZAOUET",
+    "country": "ALGERIA",
+    "lat": 35.1,
+    "lng": -1.85,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DZMOS",
+    "name": "MOSTAGANEM",
+    "country": "ALGERIA",
+    "lat": 35.928808,
+    "lng": 0.089978,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DZORN",
+    "name": "ORAN",
+    "country": "ALGERIA",
+    "lat": 35.7044415,
+    "lng": -0.6502981,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "DZSKI",
+    "name": "SKIKDA",
+    "country": "ALGERIA",
+    "lat": 36.8801317,
+    "lng": 6.9077363,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ECGYE",
+    "name": "GUAYAQUIL",
+    "country": "ECUADOR",
+    "lat": -2.16667,
+    "lng": -79.9,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ECPBO",
+    "name": "PUERTO BOLIVAR",
+    "country": "ECUADOR",
+    "lat": -3.26667,
+    "lng": -79.98333,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ECPSJ",
+    "name": "POSORJA",
+    "country": "ECUADOR",
+    "lat": -2.7,
+    "lng": -80.25,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "EGAKI",
+    "name": "ABU KIR",
+    "country": "EGYPT",
+    "lat": 31.3203016,
+    "lng": 30.0641979,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "EGALY",
+    "name": "ALEXANDRIA OLD PORT",
+    "country": "EGYPT",
+    "lat": 31.18333,
+    "lng": 29.91667,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "EGDAM",
+    "name": "DAMIETTA",
+    "country": "EGYPT",
+    "lat": 31.41667,
+    "lng": 31.81667,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "EGEDK",
+    "name": "ALEXANDRIA EL DEKHEILA",
+    "country": "EGYPT",
+    "lat": 31.131478,
+    "lng": 29.8031902,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "EGPSE",
+    "name": "PORT SAID EAST",
+    "country": "EGYPT",
+    "lat": 31.21667,
+    "lng": 32.35,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "EGPSW",
+    "name": "PORT SAID WEST",
+    "country": "EGYPT",
+    "lat": 31.25,
+    "lng": 32.28333,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "EGSOK",
+    "name": "SOKHNA PORT",
+    "country": "EGYPT",
+    "lat": 29.65,
+    "lng": 32.35,
+    "region": "Red Sea",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ESACE",
+    "name": "ARRECIFE DE LANZAROTE",
+    "country": "SPAIN",
+    "lat": 28.96667,
+    "lng": -13.53333,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ESAGP",
+    "name": "MALAGA",
+    "country": "SPAIN",
+    "lat": 36.71667,
+    "lng": -4.41667,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ESALC",
+    "name": "ALICANTE",
+    "country": "SPAIN",
+    "lat": 38.3436365,
+    "lng": -0.4881708,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ESALG",
+    "name": "ALGECIRAS",
+    "country": "SPAIN",
+    "lat": 36.1311725,
+    "lng": -5.4473991,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ESBCN",
+    "name": "BARCELONA",
+    "country": "SPAIN",
+    "lat": 41.3825802,
+    "lng": 2.177073,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ESBIO",
+    "name": "BILBAO",
+    "country": "SPAIN",
+    "lat": 43.25,
+    "lng": -2.96667,
+    "region": "Por+Biscay",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ESCAD",
+    "name": "CADIZ",
+    "country": "SPAIN",
+    "lat": 36.5297438,
+    "lng": -6.2928976,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ESCAR",
+    "name": "CARTAGENA",
+    "country": "SPAIN",
+    "lat": 37.6,
+    "lng": -0.98333,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ESCAS",
+    "name": "CASTELLON DE LA PLANA",
+    "country": "SPAIN",
+    "lat": 39.98333,
+    "lng": -0.03333,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ESFUE",
+    "name": "PUERTO DEL ROSARIO-FUERTEVENTURA",
+    "country": "SPAIN",
+    "lat": 28.5065839,
+    "lng": -13.8451575,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ESGIJ",
+    "name": "GIJON",
+    "country": "SPAIN",
+    "lat": 43.53333,
+    "lng": -5.66667,
+    "region": "Por+Biscay",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ESLEI",
+    "name": "ALMERIA",
+    "country": "SPAIN",
+    "lat": 36.83333,
+    "lng": -2.45,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ESLPA",
+    "name": "LAS PALMAS",
+    "country": "SPAIN",
+    "lat": 28.1,
+    "lng": -15.41667,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ESSCT",
+    "name": "SANTA CRUZ DE TENERIFE",
+    "country": "SPAIN",
+    "lat": 28.467178,
+    "lng": -16.2507843,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "FIHEL",
+    "name": "HELSINKI",
+    "country": "FINLAND",
+    "lat": 60.16667,
+    "lng": 24.93333,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "FIKEM",
+    "name": "KEMI",
+    "country": "FINLAND",
+    "lat": 65.73333,
+    "lng": 24.56667,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "FIKOK",
+    "name": "KOKKOLA (KARLEBY)",
+    "country": "FINLAND",
+    "lat": 63.83333,
+    "lng": 23.11667,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "FIKTK",
+    "name": "KOTKA",
+    "country": "FINLAND",
+    "lat": 60.46667,
+    "lng": 26.91667,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "FIOUL",
+    "name": "OULU (ULEABORG)",
+    "country": "FINLAND",
+    "lat": 65.01667,
+    "lng": 25.46667,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "FIRAU",
+    "name": "RAUMA",
+    "country": "FINLAND",
+    "lat": 61.13333,
+    "lng": 21.5,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "FJLTK",
+    "name": "LAUTOKA",
+    "country": "FIJI",
+    "lat": -17.61667,
+    "lng": 177.45,
+    "region": "Fiji",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "FRBES",
+    "name": "BREST",
+    "country": "FRANCE",
+    "lat": 48.4,
+    "lng": -4.48333,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "FRDKK",
+    "name": "DUNKERQUE",
+    "country": "FRANCE",
+    "lat": 51.03333,
+    "lng": 2.38333,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "FRFOS",
+    "name": "FOS-SUR-MER",
+    "country": "FRANCE",
+    "lat": 43.43333,
+    "lng": 4.93333,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "FRLEH",
+    "name": "LE HAVRE",
+    "country": "FRANCE",
+    "lat": 49.5,
+    "lng": 0.1,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "FRMTX",
+    "name": "MONTOIR-DE-BRETAGNE",
+    "country": "FRANCE",
+    "lat": 47.33333,
+    "lng": -2.15,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "FRSET",
+    "name": "SETE",
+    "country": "FRANCE",
+    "lat": 43.4,
+    "lng": 3.7,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "FRURO",
+    "name": "ROUEN",
+    "country": "FRANCE",
+    "lat": 49.45,
+    "lng": 1.1,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GALBV",
+    "name": "LIBREVILLE",
+    "country": "GABON",
+    "lat": 0.4086518,
+    "lng": 9.4418849,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GBBEL",
+    "name": "BELFAST",
+    "country": "UNITED KINGDOM",
+    "lat": 54.596391,
+    "lng": -5.9301829,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GBFXT",
+    "name": "FELIXSTOWE",
+    "country": "UNITED KINGDOM",
+    "lat": 51.9642959,
+    "lng": 1.3289938,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GBGRG",
+    "name": "GRANGEMOUTH",
+    "country": "UNITED KINGDOM",
+    "lat": 56.0,
+    "lng": -3.71667,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GBGRK",
+    "name": "GREENOCK",
+    "country": "UNITED KINGDOM",
+    "lat": 55.93333,
+    "lng": -4.75,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GBIMM",
+    "name": "IMMINGHAM",
+    "country": "UNITED KINGDOM",
+    "lat": 53.6,
+    "lng": -0.21667,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GBLGP",
+    "name": "LONDON GATEWAY PORT",
+    "country": "UNITED KINGDOM",
+    "lat": 51.5,
+    "lng": 0.48333,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GBLIV",
+    "name": "LIVERPOOL",
+    "country": "UNITED KINGDOM",
+    "lat": 53.41667,
+    "lng": -3.0,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GBPRU",
+    "name": "PORTBURY",
+    "country": "UNITED KINGDOM",
+    "lat": 51.46667,
+    "lng": -2.71667,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GBSOU",
+    "name": "SOUTHAMPTON",
+    "country": "UNITED KINGDOM",
+    "lat": 50.899862,
+    "lng": -1.43843,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GBSSH",
+    "name": "SOUTH SHIELDS",
+    "country": "UNITED KINGDOM",
+    "lat": 54.98333,
+    "lng": -1.41667,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GDSTG",
+    "name": "SAINT GEORGE'S",
+    "country": "GRENADA",
+    "lat": 12.0535331,
+    "lng": -61.751805,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GEBUS",
+    "name": "BATUMI",
+    "country": "GEORGIA",
+    "lat": 41.6509502,
+    "lng": 41.6360085,
+    "region": "B/SEA",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GEPTI",
+    "name": "POTI",
+    "country": "GEORGIA",
+    "lat": 42.141614,
+    "lng": 41.6748028,
+    "region": "B/SEA",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GMBJL",
+    "name": "BANJUL",
+    "country": "GAMBIA",
+    "lat": 13.45535,
+    "lng": -16.575646,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GNCKY",
+    "name": "CONAKRY",
+    "country": "GUINEA",
+    "lat": 9.5170602,
+    "lng": -13.6998434,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GRHER",
+    "name": "HERAKLION",
+    "country": "GREECE",
+    "lat": 35.33333,
+    "lng": 25.16667,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GRPIR",
+    "name": "PIRAEUS",
+    "country": "GREECE",
+    "lat": 37.93333,
+    "lng": 23.61667,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GTPBR",
+    "name": "PUERTO BARRIOS",
+    "country": "GUATEMALA",
+    "lat": 15.7275154,
+    "lng": -88.5952506,
+    "region": "Central America",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GTPRQ",
+    "name": "PUERTO QUETZAL",
+    "country": "GUATEMALA",
+    "lat": 13.955223,
+    "lng": -90.7910681,
+    "region": "Central America",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GTSTC",
+    "name": "PUERTO SANTO TOMAS DE CASTILLA",
+    "country": "GUATEMALA",
+    "lat": 15.7,
+    "lng": -88.61667,
+    "region": "Central America",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GWOXB",
+    "name": "BISSAU",
+    "country": "GUINEA-BISSAU",
+    "lat": 11.85,
+    "lng": -15.58333,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "GYGEO",
+    "name": "GEORGETOWN",
+    "country": "GUYANA",
+    "lat": 6.8032561,
+    "lng": -58.1455403,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "HKHKG",
+    "name": "HONG KONG",
+    "country": "HONG KONG",
+    "lat": 22.31667,
+    "lng": 114.16667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "HNPCR",
+    "name": "PUERTO CORTES",
+    "country": "HONDURAS",
+    "lat": 15.851465,
+    "lng": -87.9426681,
+    "region": "Central America",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "HNSLO",
+    "name": "SAN LORENZO",
+    "country": "HONDURAS",
+    "lat": 13.4213327,
+    "lng": -87.448706,
+    "region": "Central America",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "HRPLE",
+    "name": "PLOCE",
+    "country": "CROATIA",
+    "lat": 43.05,
+    "lng": 17.43333,
+    "region": "ADR/CEMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "HRRJK",
+    "name": "RIJEKA",
+    "country": "CROATIA",
+    "lat": 45.33333,
+    "lng": 14.4,
+    "region": "ADR/CEMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "HTPAP",
+    "name": "PORT AU PRINCE",
+    "country": "HAITI",
+    "lat": 18.547327,
+    "lng": -72.3395928,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IDBDJ",
+    "name": "BANJARMASIN",
+    "country": "INDONESIA",
+    "lat": -3.3187496,
+    "lng": 114.5925828,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IDBLW",
+    "name": "BELAWAN, SUMATRA",
+    "country": "INDONESIA",
+    "lat": 3.7694936,
+    "lng": 98.6706899,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IDBTM",
+    "name": "BATAM ISLAND",
+    "country": "INDONESIA",
+    "lat": 1.08333,
+    "lng": 104.03333,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IDDJB",
+    "name": "JAMBI, SUMATRA",
+    "country": "INDONESIA",
+    "lat": -1.7069965,
+    "lng": 102.7140041,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IDJKT",
+    "name": "JAKARTA, JAVA",
+    "country": "INDONESIA",
+    "lat": -6.13333,
+    "lng": 106.83333,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IDKTJ",
+    "name": "KUALATANJUNG",
+    "country": "INDONESIA",
+    "lat": 3.35,
+    "lng": 99.48333,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IDMAK",
+    "name": "MAKASSAR",
+    "country": "INDONESIA",
+    "lat": -5.11667,
+    "lng": 119.4,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IDPDG",
+    "name": "PADANG",
+    "country": "INDONESIA",
+    "lat": -0.95,
+    "lng": 100.35,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IDPER",
+    "name": "PERAWANG",
+    "country": "INDONESIA",
+    "lat": 0.6672258,
+    "lng": 101.6023759,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IDPLM",
+    "name": "PALEMBANG, SUMATRA",
+    "country": "INDONESIA",
+    "lat": -2.9888243,
+    "lng": 104.7568507,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IDPMB",
+    "name": "PATIMBAN",
+    "country": "INDONESIA",
+    "lat": -6.244,
+    "lng": 107.901,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IDPNJ",
+    "name": "PANJANG",
+    "country": "INDONESIA",
+    "lat": -5.466666666,
+    "lng": 105.316666666,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IDPNK",
+    "name": "PONTIANAK, KALIMANTAN",
+    "country": "INDONESIA",
+    "lat": -0.0226903,
+    "lng": 109.3447488,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IDPWG",
+    "name": "PERAWANG, SUMATRA",
+    "country": "INDONESIA",
+    "lat": 0.63333,
+    "lng": 101.61667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IDSRG",
+    "name": "SEMARANG",
+    "country": "INDONESIA",
+    "lat": -6.96667,
+    "lng": 110.48333,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IEDUB",
+    "name": "DUBLIN",
+    "country": "IRELAND",
+    "lat": 53.3493795,
+    "lng": -6.2605593,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "IEORK",
+    "name": "CORK",
+    "country": "IRELAND",
+    "lat": 51.8985136,
+    "lng": -8.4726423,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ILASH",
+    "name": "ASHDOD",
+    "country": "ISRAEL",
+    "lat": 31.7977314,
+    "lng": 34.6529922,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ILHFA",
+    "name": "HAIFA",
+    "country": "ISRAEL",
+    "lat": 32.8,
+    "lng": 34.98333,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "INCCU",
+    "name": "KOLKATA",
+    "country": "INDIA",
+    "lat": 22.56667,
+    "lng": 88.35,
+    "region": "South India+Sri Lanka",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "INCOK",
+    "name": "COCHIN",
+    "country": "INDIA",
+    "lat": 9.96667,
+    "lng": 76.26667,
+    "region": "South India+Sri Lanka",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "INENR",
+    "name": "ENNORE",
+    "country": "INDIA",
+    "lat": 13.2258262,
+    "lng": 80.3243551,
+    "region": "South India+Sri Lanka",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "INGGV",
+    "name": "GANGAVARAM",
+    "country": "INDIA",
+    "lat": 17.65,
+    "lng": 83.25,
+    "region": "South India+Sri Lanka",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "INHAL",
+    "name": "HALDIA",
+    "country": "INDIA",
+    "lat": 22.028124,
+    "lng": 88.0632655,
+    "region": "South India+Sri Lanka",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "INHZA",
+    "name": "HAZIRA PORT/SURAT",
+    "country": "INDIA",
+    "lat": 21.08333,
+    "lng": 72.61667,
+    "region": "North India+Pakistan",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "INKAT",
+    "name": "KATTUPALLI",
+    "country": "INDIA",
+    "lat": 13.3,
+    "lng": 80.35,
+    "region": "South India+Sri Lanka",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "INKRI",
+    "name": "KRISHNAPATNAM",
+    "country": "INDIA",
+    "lat": 14.2885036,
+    "lng": 80.123056,
+    "region": "South India+Sri Lanka",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "INMAA",
+    "name": "CHENNAI",
+    "country": "INDIA",
+    "lat": 13.08333,
+    "lng": 80.28333,
+    "region": "South India+Sri Lanka",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "INMRM",
+    "name": "MARMUGAO (MARMAGAO)",
+    "country": "INDIA",
+    "lat": 15.4,
+    "lng": 73.78333,
+    "region": "North India+Pakistan",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "INMUN",
+    "name": "MUNDRA",
+    "country": "INDIA",
+    "lat": 22.8393153,
+    "lng": 69.7249477,
+    "region": "North India+Pakistan",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "INNML",
+    "name": "NEW MANGALORE",
+    "country": "INDIA",
+    "lat": 12.9298239,
+    "lng": 74.8224536,
+    "region": "North India+Pakistan",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "INNSA",
+    "name": "NHAVA SHEVA",
+    "country": "INDIA",
+    "lat": 18.9450306,
+    "lng": 72.949423,
+    "region": "North India+Pakistan",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "INPAV",
+    "name": "PIPAVAV (VICTOR) PORT",
+    "country": "INDIA",
+    "lat": 20.96667,
+    "lng": 71.55,
+    "region": "North India+Pakistan",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "INPRT",
+    "name": "PARADIP GARH",
+    "country": "INDIA",
+    "lat": 20.31667,
+    "lng": 86.61667,
+    "region": "South India+Sri Lanka",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ISREY",
+    "name": "REYKJAVIK",
+    "country": "ICELAND",
+    "lat": 64.15,
+    "lng": -21.95,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ITAOI",
+    "name": "ANCONA",
+    "country": "ITALY",
+    "lat": 43.63333,
+    "lng": 13.5,
+    "region": "ADR/CEMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ITAUG",
+    "name": "AUGUSTA PORT OF CATANIA",
+    "country": "ITALY",
+    "lat": 37.21667,
+    "lng": 15.21667,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ITBRI",
+    "name": "BARI",
+    "country": "ITALY",
+    "lat": 41.13333,
+    "lng": 16.85,
+    "region": "ADR/CEMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ITCAG",
+    "name": "CAGLIARI",
+    "country": "ITALY",
+    "lat": 39.21667,
+    "lng": 9.11667,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ITCVV",
+    "name": "CIVITAVECCHIA",
+    "country": "ITALY",
+    "lat": 42.1,
+    "lng": 11.8,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ITGIT",
+    "name": "GIOIA TAURO",
+    "country": "ITALY",
+    "lat": 38.41667,
+    "lng": 15.9,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ITGOA",
+    "name": "GENOA",
+    "country": "ITALY",
+    "lat": 44.41667,
+    "lng": 8.95,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ITLIV",
+    "name": "LEGHORN",
+    "country": "ITALY",
+    "lat": 43.55,
+    "lng": 10.31667,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ITNAP",
+    "name": "NAPLES",
+    "country": "ITALY",
+    "lat": 40.83333,
+    "lng": 14.25,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ITPMO",
+    "name": "PALERMO",
+    "country": "ITALY",
+    "lat": 38.11667,
+    "lng": 13.36667,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ITPZL",
+    "name": "POZZALLO",
+    "country": "ITALY",
+    "lat": 36.71667,
+    "lng": 14.85,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ITRAN",
+    "name": "RAVENNA",
+    "country": "ITALY",
+    "lat": 44.4161414,
+    "lng": 12.2017617,
+    "region": "ADR/CEMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ITSAL",
+    "name": "SALERNO",
+    "country": "ITALY",
+    "lat": 40.6803601,
+    "lng": 14.7594542,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ITSPE",
+    "name": "LA SPEZIA",
+    "country": "ITALY",
+    "lat": 44.11667,
+    "lng": 9.83333,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JMKIN",
+    "name": "KINGSTON",
+    "country": "JAMAICA",
+    "lat": 17.9712148,
+    "lng": -76.7928128,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JOAQJ",
+    "name": "AL 'AQABAH",
+    "country": "JORDAN",
+    "lat": 29.53333,
+    "lng": 35.0,
+    "region": "Red Sea",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPAXT",
+    "name": "AKITA",
+    "country": "JAPAN",
+    "lat": 39.7197629,
+    "lng": 140.1034669,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPCHB",
+    "name": "CHIBA",
+    "country": "JAPAN",
+    "lat": 35.6070629,
+    "lng": 140.1062653,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPFKY",
+    "name": "FUKUYAMA, HIROSHIMA",
+    "country": "JAPAN",
+    "lat": 34.485861111,
+    "lng": 133.362305555,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPHBK",
+    "name": "HIBIKISHINKO",
+    "country": "JAPAN",
+    "lat": 33.98333,
+    "lng": 130.75,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPHHE",
+    "name": "HACHINOHE, AOMORI",
+    "country": "JAPAN",
+    "lat": 40.5122388,
+    "lng": 141.4882959,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPHIC",
+    "name": "HITACHINAKA",
+    "country": "JAPAN",
+    "lat": 36.3961235,
+    "lng": 140.5353397,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPHIJ",
+    "name": "HIROSHIMA",
+    "country": "JAPAN",
+    "lat": 34.3917241,
+    "lng": 132.4517589,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPHKT",
+    "name": "HAKATA, FUKUOKA",
+    "country": "JAPAN",
+    "lat": 33.6,
+    "lng": 130.41667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPHMD",
+    "name": "HAMADA",
+    "country": "JAPAN",
+    "lat": 34.8991982,
+    "lng": 132.0799984,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPHSM",
+    "name": "HOSOSHIMA",
+    "country": "JAPAN",
+    "lat": 32.4244896,
+    "lng": 131.666616,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPIMB",
+    "name": "IMABARI",
+    "country": "JAPAN",
+    "lat": 34.0658182,
+    "lng": 132.9976758,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPIMI",
+    "name": "IMARI",
+    "country": "JAPAN",
+    "lat": 33.2644557,
+    "lng": 129.8808439,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPISI",
+    "name": "ISHIKARI",
+    "country": "JAPAN",
+    "lat": 43.171677,
+    "lng": 141.3159605,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPIWK",
+    "name": "IWAKUNI",
+    "country": "JAPAN",
+    "lat": 34.1664995,
+    "lng": 132.2191163,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPIYM",
+    "name": "IYOMISHIMA",
+    "country": "JAPAN",
+    "lat": 33.980694444,
+    "lng": 133.549194444,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPKCZ",
+    "name": "KOCHI",
+    "country": "JAPAN",
+    "lat": 33.5588482,
+    "lng": 133.5310918,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPKIJ",
+    "name": "NIIGATA",
+    "country": "JAPAN",
+    "lat": 37.9163757,
+    "lng": 139.0365062,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPKIS",
+    "name": "KAMAISHI",
+    "country": "JAPAN",
+    "lat": 39.2757463,
+    "lng": 141.8858151,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPKMJ",
+    "name": "KUMAMOTO",
+    "country": "JAPAN",
+    "lat": 32.8033909,
+    "lng": 130.7082737,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPKNZ",
+    "name": "KANAZAWA",
+    "country": "JAPAN",
+    "lat": 36.561627,
+    "lng": 136.6568822,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPKSM",
+    "name": "KASHIMA, IBARAKI",
+    "country": "JAPAN",
+    "lat": 35.965638888,
+    "lng": 140.644833333,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPKUH",
+    "name": "KUSHIRO",
+    "country": "JAPAN",
+    "lat": 42.9849503,
+    "lng": 144.3820491,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPKWS",
+    "name": "KAWASAKI",
+    "country": "JAPAN",
+    "lat": 35.5306639,
+    "lng": 139.7037668,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPMAI",
+    "name": "MAIZURU",
+    "country": "JAPAN",
+    "lat": 35.4747274,
+    "lng": 135.3860338,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPMII",
+    "name": "MIIKE, FUKUOKA",
+    "country": "JAPAN",
+    "lat": 33.049455,
+    "lng": 130.483104,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPMIZ",
+    "name": "MIZUSHIMA",
+    "country": "JAPAN",
+    "lat": 34.5070888,
+    "lng": 133.7456531,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPMOJ",
+    "name": "MOJI/KITAKYUSHU",
+    "country": "JAPAN",
+    "lat": 33.9,
+    "lng": 130.96667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPMUR",
+    "name": "MURORAN",
+    "country": "JAPAN",
+    "lat": 42.3152461,
+    "lng": 140.9740731,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPMYJ",
+    "name": "MATSUYAMA",
+    "country": "JAPAN",
+    "lat": 33.8395188,
+    "lng": 132.7653521,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPNAH",
+    "name": "NAHA, OKINAWA",
+    "country": "JAPAN",
+    "lat": 26.212222222,
+    "lng": 127.679166666,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPNAN",
+    "name": "NAKANOSEKI",
+    "country": "JAPAN",
+    "lat": 34.0,
+    "lng": 131.53333,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPNAO",
+    "name": "NAOETSU",
+    "country": "JAPAN",
+    "lat": 37.1848593,
+    "lng": 138.2649619,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPNGO",
+    "name": "NAGOYA",
+    "country": "JAPAN",
+    "lat": 35.181388888,
+    "lng": 136.906388888,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPNGS",
+    "name": "NAGASAKI",
+    "country": "JAPAN",
+    "lat": 32.7501611,
+    "lng": 129.8781002,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPOIT",
+    "name": "OITA",
+    "country": "JAPAN",
+    "lat": 33.2393864,
+    "lng": 131.6096524,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPONA",
+    "name": "ONAHAMA",
+    "country": "JAPAN",
+    "lat": 36.954631,
+    "lng": 140.904106,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPOSA",
+    "name": "OSAKA",
+    "country": "JAPAN",
+    "lat": 34.66667,
+    "lng": 135.5,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPSBS",
+    "name": "SHIBUSHI",
+    "country": "JAPAN",
+    "lat": 31.4953083,
+    "lng": 131.0456478,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPSDJ",
+    "name": "SENDAI, MIYAGI",
+    "country": "JAPAN",
+    "lat": 38.2677554,
+    "lng": 140.8691498,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPSHS",
+    "name": "SHIMONOSEKI",
+    "country": "JAPAN",
+    "lat": 33.9577116,
+    "lng": 130.9415455,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPSKT",
+    "name": "SAKATA",
+    "country": "JAPAN",
+    "lat": 38.9147229,
+    "lng": 139.8364101,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPSMN",
+    "name": "SAKAIMINATO",
+    "country": "JAPAN",
+    "lat": 35.5391751,
+    "lng": 133.2318575,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPSMZ",
+    "name": "SHIMIZU",
+    "country": "JAPAN",
+    "lat": 35.0990798,
+    "lng": 138.9027103,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPSTS",
+    "name": "SATSUMASENDAI",
+    "country": "JAPAN",
+    "lat": 31.8133,
+    "lng": 130.3039,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "JPUKB",
+    "name": "KOBE",
+    "country": "JAPAN",
+    "lat": 34.68333,
+    "lng": 135.16667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "KELAU",
+    "name": "LAMU",
+    "country": "KENYA",
+    "lat": -2.2675396,
+    "lng": 40.9010641,
+    "region": "East Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "KEMBA",
+    "name": "MOMBASA",
+    "country": "KENYA",
+    "lat": -4.05052,
+    "lng": 39.667169,
+    "region": "East Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "KHKOS",
+    "name": "KAMPONG SAOM (SIHANOUKVILLE)",
+    "country": "CAMBODIA",
+    "lat": 10.6,
+    "lng": 103.51667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "KHPNH",
+    "name": "PHNOM PENH",
+    "country": "CAMBODIA",
+    "lat": 11.568271,
+    "lng": 104.9224426,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "KMMUT",
+    "name": "MUTSAMUDU",
+    "country": "COMOROS",
+    "lat": -12.15,
+    "lng": 44.38333,
+    "region": "East Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "KMYVA",
+    "name": "MORONI",
+    "country": "COMOROS",
+    "lat": -11.7040306,
+    "lng": 43.251909,
+    "region": "East Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "KRINC",
+    "name": "INCHEON",
+    "country": "KOREA, REPUBLIC OF",
+    "lat": 37.45,
+    "lng": 126.61667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "KRKAN",
+    "name": "GWANGYANG",
+    "country": "KOREA, REPUBLIC OF",
+    "lat": 34.93333,
+    "lng": 127.7,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "KRPUS",
+    "name": "BUSAN",
+    "country": "KOREA, REPUBLIC OF",
+    "lat": 35.13333,
+    "lng": 129.05,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "KWSAA",
+    "name": "SHUAIBA",
+    "country": "KUWAIT",
+    "lat": 29.03333,
+    "lng": 48.13333,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "KWSWK",
+    "name": "SHUWAIKH",
+    "country": "KUWAIT",
+    "lat": 29.35,
+    "lng": 47.93333,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "LBBEY",
+    "name": "BEIRUT",
+    "country": "LEBANON",
+    "lat": 33.83333,
+    "lng": 35.48333,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "LCCAS",
+    "name": "CASTRIES",
+    "country": "SAINT LUCIA",
+    "lat": 14.01667,
+    "lng": -60.96667,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "LKCMB",
+    "name": "COLOMBO",
+    "country": "SRI LANKA",
+    "lat": 6.91667,
+    "lng": 79.85,
+    "region": "South India+Sri Lanka",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "LKHBA",
+    "name": "HAMBANTOTA",
+    "country": "SRI LANKA",
+    "lat": 6.11667,
+    "lng": 81.11667,
+    "region": "South India+Sri Lanka",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "LRMLW",
+    "name": "MONROVIA",
+    "country": "LIBERIA",
+    "lat": 6.3,
+    "lng": -10.8,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "LTKLJ",
+    "name": "KLAIPEDA",
+    "country": "LITHUANIA",
+    "lat": 55.7127529,
+    "lng": 21.1350469,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "LVRIX",
+    "name": "RIGA",
+    "country": "LATVIA",
+    "lat": 56.9479326,
+    "lng": 24.1079726,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "LYBEN",
+    "name": "BINGAZI",
+    "country": "LIBYA",
+    "lat": 32.1200168,
+    "lng": 20.0812174,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "LYKHO",
+    "name": "KHOMS",
+    "country": "LIBYA",
+    "lat": 32.65,
+    "lng": 14.26667,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "LYMRA",
+    "name": "MISURATA",
+    "country": "LIBYA",
+    "lat": 32.3745923,
+    "lng": 15.0905803,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MAAGA",
+    "name": "AGADIR",
+    "country": "MOROCCO",
+    "lat": 30.4205162,
+    "lng": -9.5838532,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MACAS",
+    "name": "CASABLANCA",
+    "country": "MOROCCO",
+    "lat": 33.58333,
+    "lng": -7.6,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MANDR",
+    "name": "NADOR",
+    "country": "MOROCCO",
+    "lat": 35.1739922,
+    "lng": -2.9281198,
+    "region": "NAF",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MEBAR",
+    "name": "BAR",
+    "country": "MONTENEGRO",
+    "lat": 42.08333,
+    "lng": 19.08333,
+    "region": "ADR/CEMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MGDIE",
+    "name": "DIEGO SUAREZ",
+    "country": "MADAGASCAR",
+    "lat": -12.2779632,
+    "lng": 49.2913743,
+    "region": "East Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MGMJN",
+    "name": "MAJUNGA",
+    "country": "MADAGASCAR",
+    "lat": -15.7181492,
+    "lng": 46.3172577,
+    "region": "East Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MRNDB",
+    "name": "NOUADHIBOU",
+    "country": "MAURITANIA",
+    "lat": 20.9127045,
+    "lng": -17.0503094,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MRNKC",
+    "name": "NOUAKCHOTT",
+    "country": "MAURITANIA",
+    "lat": 18.0792379,
+    "lng": -15.9780071,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MTMAR",
+    "name": "MARSAXLOKK",
+    "country": "MALTA",
+    "lat": 35.83333,
+    "lng": 14.53333,
+    "region": "WMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MUPLU",
+    "name": "PORT LOUIS",
+    "country": "MAURITIUS",
+    "lat": -20.1624522,
+    "lng": 57.5028044,
+    "region": "Indian Ocean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MVMLE",
+    "name": "MALE",
+    "country": "MALDIVES",
+    "lat": 4.16667,
+    "lng": 73.5,
+    "region": "Indian Ocean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MXATM",
+    "name": "ALTAMIRA",
+    "country": "MEXICO",
+    "lat": 22.4,
+    "lng": -97.91667,
+    "region": "MEXICO EC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MXESE",
+    "name": "ENSENADA",
+    "country": "MEXICO",
+    "lat": 31.85,
+    "lng": -116.6,
+    "region": "MEXICO WC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MXGYM",
+    "name": "GUAYMAS",
+    "country": "MEXICO",
+    "lat": 27.91667,
+    "lng": -110.88333,
+    "region": "MEXICO WC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MXLZC",
+    "name": "LAZARO CARDENAS",
+    "country": "MEXICO",
+    "lat": 17.95,
+    "lng": -102.18333,
+    "region": "MEXICO WC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MXMZT",
+    "name": "MAZATLAN",
+    "country": "MEXICO",
+    "lat": 23.2035785,
+    "lng": -106.4208391,
+    "region": "MEXICO WC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MXPGO",
+    "name": "PROGRESO",
+    "country": "MEXICO",
+    "lat": 21.26667,
+    "lng": -89.65,
+    "region": "MEXICO EC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MXPMS",
+    "name": "PUERTO MORELOS",
+    "country": "MEXICO",
+    "lat": 20.83333,
+    "lng": -86.86667,
+    "region": "MEXICO EC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MXZLO",
+    "name": "MANZANILLO",
+    "country": "MEXICO",
+    "lat": 19.05,
+    "lng": -104.3,
+    "region": "MEXICO WC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MYBKI",
+    "name": "KOTA KINABALU, SABAH",
+    "country": "MALAYSIA",
+    "lat": 5.96667,
+    "lng": 116.06667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MYBTU",
+    "name": "BINTULU, SARAWAK",
+    "country": "MALAYSIA",
+    "lat": 3.1874261,
+    "lng": 113.0472803,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MYKCH",
+    "name": "KUCHING, SARAWAK",
+    "country": "MALAYSIA",
+    "lat": 1.5597561,
+    "lng": 110.345397,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MYLBU",
+    "name": "LABUAN, SABAH",
+    "country": "MALAYSIA",
+    "lat": 5.3,
+    "lng": 115.22,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MYLDU",
+    "name": "LAHAD DATU, SABAH",
+    "country": "MALAYSIA",
+    "lat": 5.1155093,
+    "lng": 118.4306361,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MYMYY",
+    "name": "MIRI, SARAWAK",
+    "country": "MALAYSIA",
+    "lat": 4.3940102,
+    "lng": 113.9880199,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MYPEN",
+    "name": "PENANG",
+    "country": "MALAYSIA",
+    "lat": 5.41667,
+    "lng": 100.31667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MYPGU",
+    "name": "PASIR GUDANG, JOHOR",
+    "country": "MALAYSIA",
+    "lat": 1.4953437,
+    "lng": 103.9207048,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MYPKG",
+    "name": "PORT KLANG (PELABUHAN KLANG)",
+    "country": "MALAYSIA",
+    "lat": 3.0,
+    "lng": 101.4,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MYSBW",
+    "name": "SIBU, SARAWAK",
+    "country": "MALAYSIA",
+    "lat": 2.2996601,
+    "lng": 111.8710012,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MYSDK",
+    "name": "SANDAKAN, SABAH",
+    "country": "MALAYSIA",
+    "lat": 5.8391274,
+    "lng": 118.1158598,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MZBEW",
+    "name": "BEIRA",
+    "country": "MOZAMBIQUE",
+    "lat": -19.8340679,
+    "lng": 34.8358075,
+    "region": "East Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MZMNC",
+    "name": "NACALA",
+    "country": "MOZAMBIQUE",
+    "lat": -14.5583059,
+    "lng": 40.6863816,
+    "region": "East Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "MZMPM",
+    "name": "MAPUTO",
+    "country": "MOZAMBIQUE",
+    "lat": -25.966213,
+    "lng": 32.56745,
+    "region": "East Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NCNOU",
+    "name": "NOUMEA",
+    "country": "NEW CALEDONIA",
+    "lat": -22.26667,
+    "lng": 166.45,
+    "region": "Noumea",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NGAPP",
+    "name": "APAPA",
+    "country": "NIGERIA",
+    "lat": 6.4469046,
+    "lng": 3.362237,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NGLKK",
+    "name": "LEKKI",
+    "country": "NIGERIA",
+    "lat": 6.4706069,
+    "lng": 3.8082323,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NGONN",
+    "name": "ONNE",
+    "country": "NIGERIA",
+    "lat": 4.71667,
+    "lng": 7.15,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NGPHC",
+    "name": "PORT HARCOURT",
+    "country": "NIGERIA",
+    "lat": 4.7676576,
+    "lng": 7.0188527,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NICIO",
+    "name": "CORINTO",
+    "country": "NICARAGUA",
+    "lat": 12.481719,
+    "lng": -87.1713035,
+    "region": "Central America",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NLAMS",
+    "name": "AMSTERDAM",
+    "country": "NETHERLANDS",
+    "lat": 52.4,
+    "lng": 4.81667,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NLMOE",
+    "name": "MOERDIJK",
+    "country": "NETHERLANDS",
+    "lat": 51.68333,
+    "lng": 4.56667,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NLRTM",
+    "name": "ROTTERDAM",
+    "country": "NETHERLANDS",
+    "lat": 51.91667,
+    "lng": 4.5,
+    "region": "NWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOAES",
+    "name": "ALESUND",
+    "country": "NORWAY",
+    "lat": 62.46667,
+    "lng": 6.15,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOBGO",
+    "name": "BERGEN",
+    "country": "NORWAY",
+    "lat": 60.38333,
+    "lng": 5.31667,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOBVK",
+    "name": "BREVIK",
+    "country": "NORWAY",
+    "lat": 59.05,
+    "lng": 9.7,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOEGE",
+    "name": "EGERSUND",
+    "country": "NORWAY",
+    "lat": 58.45,
+    "lng": 6.0,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOFRK",
+    "name": "FREDRIKSTAD",
+    "country": "NORWAY",
+    "lat": 59.2,
+    "lng": 10.91667,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOFRO",
+    "name": "FLORO",
+    "country": "NORWAY",
+    "lat": 61.6,
+    "lng": 5.01667,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOGJM",
+    "name": "GJEMNES",
+    "country": "NORWAY",
+    "lat": 62.9189065,
+    "lng": 7.8692606,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOGLO",
+    "name": "GLOMFJORD",
+    "country": "NORWAY",
+    "lat": 66.8,
+    "lng": 13.93333,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOHAL",
+    "name": "HALDEN",
+    "country": "NORWAY",
+    "lat": 59.1,
+    "lng": 11.36667,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOHAU",
+    "name": "HAUGESUND",
+    "country": "NORWAY",
+    "lat": 59.4,
+    "lng": 5.25,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOIKR",
+    "name": "IKORNNES",
+    "country": "NORWAY",
+    "lat": 62.38333,
+    "lng": 6.55,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOKRS",
+    "name": "KRISTIANSAND",
+    "country": "NORWAY",
+    "lat": 58.13333,
+    "lng": 7.98333,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOLAR",
+    "name": "LARVIK",
+    "country": "NORWAY",
+    "lat": 59.03333,
+    "lng": 10.01667,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOMAY",
+    "name": "MALOY",
+    "country": "NORWAY",
+    "lat": 61.93333,
+    "lng": 5.1,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOMSS",
+    "name": "MOSS",
+    "country": "NORWAY",
+    "lat": 59.41667,
+    "lng": 10.65,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOORK",
+    "name": "ORKANGER",
+    "country": "NORWAY",
+    "lat": 63.31667,
+    "lng": 9.83333,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOOSL",
+    "name": "OSLO",
+    "country": "NORWAY",
+    "lat": 59.9,
+    "lng": 10.73333,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOSAT",
+    "name": "SALTEN",
+    "country": "NORWAY",
+    "lat": 67.36667,
+    "lng": 15.58333,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOSAU",
+    "name": "SAUDA",
+    "country": "NORWAY",
+    "lat": 59.63333,
+    "lng": 6.35,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NOSVG",
+    "name": "STAVANGER",
+    "country": "NORWAY",
+    "lat": 58.96667,
+    "lng": 5.75,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NZAKL",
+    "name": "AUCKLAND",
+    "country": "NEW ZEALAND",
+    "lat": -36.83333,
+    "lng": 174.8,
+    "region": "New Zealand",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NZBLU",
+    "name": "BLUFF",
+    "country": "NEW ZEALAND",
+    "lat": -46.6,
+    "lng": 168.31667,
+    "region": "New Zealand",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NZLYT",
+    "name": "LYTTELTON",
+    "country": "NEW ZEALAND",
+    "lat": -43.6,
+    "lng": 172.71667,
+    "region": "New Zealand",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NZMAP",
+    "name": "MARSDEN POINT",
+    "country": "NEW ZEALAND",
+    "lat": -35.83333,
+    "lng": 174.5,
+    "region": "New Zealand",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NZNPE",
+    "name": "NAPIER",
+    "country": "NEW ZEALAND",
+    "lat": -39.46667,
+    "lng": 176.9,
+    "region": "New Zealand",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NZNSN",
+    "name": "NELSON",
+    "country": "NEW ZEALAND",
+    "lat": -41.25,
+    "lng": 173.26667,
+    "region": "New Zealand",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "NZPOE",
+    "name": "PORT CHALMERS",
+    "country": "NEW ZEALAND",
+    "lat": -45.81667,
+    "lng": 170.6,
+    "region": "New Zealand",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "OMDQM",
+    "name": "DUQM",
+    "country": "OMAN",
+    "lat": 19.65,
+    "lng": 57.7,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "OMSLL",
+    "name": "SALALAH",
+    "country": "OMAN",
+    "lat": 17.0174945,
+    "lng": 54.1010923,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "OMSOH",
+    "name": "SOHAR",
+    "country": "OMAN",
+    "lat": 24.3419881,
+    "lng": 56.7298385,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PABLB",
+    "name": "BALBOA",
+    "country": "PANAMA",
+    "lat": 8.9495435,
+    "lng": -79.5529019,
+    "region": "Central America",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PACTB",
+    "name": "CRISTOBAL",
+    "country": "PANAMA",
+    "lat": 9.35,
+    "lng": -79.9,
+    "region": "Central America",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PAMIT",
+    "name": "MANZANILLO",
+    "country": "PANAMA",
+    "lat": 7.5349987,
+    "lng": -81.1677861,
+    "region": "Central America",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PAONX",
+    "name": "COLON",
+    "country": "PANAMA",
+    "lat": 9.35,
+    "lng": -79.86667,
+    "region": "Central America",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PAROD",
+    "name": "RODMAN",
+    "country": "PANAMA",
+    "lat": 8.95,
+    "lng": -79.56667,
+    "region": "Central America",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PECLL",
+    "name": "CALLAO",
+    "country": "PERU",
+    "lat": -12.05,
+    "lng": -77.13333,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PEPAI",
+    "name": "PAITA",
+    "country": "PERU",
+    "lat": -5.0851637,
+    "lng": -81.1136793,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PEPIO",
+    "name": "PISCO",
+    "country": "PERU",
+    "lat": -13.7099813,
+    "lng": -76.2029793,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PESVY",
+    "name": "SALAVERRY",
+    "country": "PERU",
+    "lat": -8.2241119,
+    "lng": -78.9763929,
+    "region": "SAWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PFPPT",
+    "name": "PAPEETE",
+    "country": "FRENCH POLYNESIA",
+    "lat": -17.53333,
+    "lng": -149.56667,
+    "region": "Noumea",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PHBTG",
+    "name": "BATANGAS, LUZON",
+    "country": "PHILIPPINES",
+    "lat": 13.75,
+    "lng": 121.05,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PHCEB",
+    "name": "CEBU",
+    "country": "PHILIPPINES",
+    "lat": 10.2934946,
+    "lng": 123.9018183,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PHCGY",
+    "name": "CAGAYAN DE ORO, MINDANAO",
+    "country": "PHILIPPINES",
+    "lat": 8.4756417,
+    "lng": 124.6421532,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PHDVO",
+    "name": "DAVAO, MINDANAO",
+    "country": "PHILIPPINES",
+    "lat": 7.066666666,
+    "lng": 125.616666666,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PHGES",
+    "name": "GENERAL SANTOS",
+    "country": "PHILIPPINES",
+    "lat": 6.11667,
+    "lng": 125.15,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PHMNN",
+    "name": "MANILA NORTH HARBOUR",
+    "country": "PHILIPPINES",
+    "lat": 14.608197222,
+    "lng": 120.956244444,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PHMNS",
+    "name": "MANILA SOUTH HARBOUR",
+    "country": "PHILIPPINES",
+    "lat": 14.608197222,
+    "lng": 120.956244444,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PHSFS",
+    "name": "SUBIC",
+    "country": "PHILIPPINES",
+    "lat": 14.820322,
+    "lng": 120.2821075,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PKBQM",
+    "name": "KARACHI-MUHAMMAD BIN QASIM",
+    "country": "PAKISTAN",
+    "lat": 24.76667,
+    "lng": 67.33333,
+    "region": "North India+Pakistan",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PKKHI",
+    "name": "KARACHI",
+    "country": "PAKISTAN",
+    "lat": 24.8546842,
+    "lng": 67.0207055,
+    "region": "North India+Pakistan",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PLGDN",
+    "name": "GDANSK",
+    "country": "POLAND",
+    "lat": 54.3706858,
+    "lng": 18.6129831,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PLGDY",
+    "name": "GDYNIA",
+    "country": "POLAND",
+    "lat": 54.5,
+    "lng": 18.55,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PRSJU",
+    "name": "SAN JUAN",
+    "country": "PUERTO RICO",
+    "lat": 18.45,
+    "lng": -66.08333,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PTFDF",
+    "name": "FIGUEIRA DA FOZ",
+    "country": "PORTUGAL",
+    "lat": 40.15,
+    "lng": -8.86667,
+    "region": "Por+Biscay",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PTLEI",
+    "name": "LEIXOES",
+    "country": "PORTUGAL",
+    "lat": 41.18333,
+    "lng": -8.68333,
+    "region": "Por+Biscay",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PTLIS",
+    "name": "LISBOA",
+    "country": "PORTUGAL",
+    "lat": 38.71667,
+    "lng": -9.13333,
+    "region": "Por+Biscay",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PTSET",
+    "name": "SETUBAL",
+    "country": "PORTUGAL",
+    "lat": 38.53333,
+    "lng": -8.9,
+    "region": "Por+Biscay",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PTSIE",
+    "name": "SINES",
+    "country": "PORTUGAL",
+    "lat": 37.95,
+    "lng": -8.86667,
+    "region": "Por+Biscay",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PYBCM",
+    "name": "CAACUPEMI ASUNCION",
+    "country": "PARAGUAY",
+    "lat": -25.21667,
+    "lng": -57.55,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PYPIL",
+    "name": "CAACUPEMI PILAR",
+    "country": "PARAGUAY",
+    "lat": -26.8582578,
+    "lng": -58.3034318,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "PYVLL",
+    "name": "PUERTO SEGURO FLUVIAL (VILLETA)",
+    "country": "PARAGUAY",
+    "lat": -25.5045192,
+    "lng": -57.5693789,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "QAHMD",
+    "name": "HAMAD",
+    "country": "QATAR",
+    "lat": 25.0,
+    "lng": 51.61667,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "QAMES",
+    "name": "MESAIEED",
+    "country": "QATAR",
+    "lat": 24.988,
+    "lng": 51.545,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "REPDG",
+    "name": "POINTE DES GALETS",
+    "country": "REUNION",
+    "lat": -20.91667,
+    "lng": 55.28333,
+    "region": "Indian Ocean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ROCND",
+    "name": "CONSTANTA",
+    "country": "ROMANIA",
+    "lat": 44.18333,
+    "lng": 28.65,
+    "region": "B/SEA",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "RULED",
+    "name": "SAINT PETERSBURG",
+    "country": "RUSSIAN FEDERATION",
+    "lat": 59.88333,
+    "lng": 30.25,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "RUNVS",
+    "name": "NOVOROSSIYSK",
+    "country": "RUSSIAN FEDERATION",
+    "lat": 44.71667,
+    "lng": 37.76667,
+    "region": "B/SEA",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "RUPKC",
+    "name": "PETROPAVLOVSK-KAMCHATSKIY",
+    "country": "RUSSIAN FEDERATION",
+    "lat": 53.0199838,
+    "lng": 158.6471356,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SADMM",
+    "name": "AD DAMMAM",
+    "country": "SAUDI ARABIA",
+    "lat": 26.5,
+    "lng": 50.2,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SAJED",
+    "name": "JEDDAH",
+    "country": "SAUDI ARABIA",
+    "lat": 21.46667,
+    "lng": 39.16667,
+    "region": "Red Sea",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SAJUB",
+    "name": "JUBAIL",
+    "country": "SAUDI ARABIA",
+    "lat": 27.01667,
+    "lng": 49.66667,
+    "region": "Middle East",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SAKAC",
+    "name": "KING ABDULLAH PORT",
+    "country": "SAUDI ARABIA",
+    "lat": 22.4,
+    "lng": 39.08333,
+    "region": "Red Sea",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SANEO",
+    "name": "NEOM",
+    "country": "SAUDI ARABIA",
+    "lat": 27.56667,
+    "lng": 35.55,
+    "region": "Red Sea",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SBHIR",
+    "name": "HONIARA, GUADALCANAL IS",
+    "country": "SOLOMON ISLANDS",
+    "lat": -9.433333,
+    "lng": 159.95,
+    "region": "Fiji",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SDPZU",
+    "name": "PORT SUDAN",
+    "country": "SUDAN",
+    "lat": 19.619217,
+    "lng": 37.211709,
+    "region": "Red Sea",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SEAHU",
+    "name": "AHUS",
+    "country": "SWEDEN",
+    "lat": 55.91667,
+    "lng": 14.28333,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SEGOT",
+    "name": "GOTEBORG",
+    "country": "SWEDEN",
+    "lat": 57.71667,
+    "lng": 11.96667,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SEGVX",
+    "name": "GAVLE",
+    "country": "SWEDEN",
+    "lat": 60.66667,
+    "lng": 17.16667,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SEHAD",
+    "name": "HALMSTAD",
+    "country": "SWEDEN",
+    "lat": 56.66667,
+    "lng": 12.85,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SEHEL",
+    "name": "HELSINGBORG",
+    "country": "SWEDEN",
+    "lat": 56.0442098,
+    "lng": 12.703706,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SEKAN",
+    "name": "KARLSHAMN",
+    "country": "SWEDEN",
+    "lat": 56.16667,
+    "lng": 14.85,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SENRK",
+    "name": "NORRKOPING",
+    "country": "SWEDEN",
+    "lat": 58.6,
+    "lng": 16.18333,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SEPIT",
+    "name": "PITEA",
+    "country": "SWEDEN",
+    "lat": 65.33333,
+    "lng": 21.5,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SESFT",
+    "name": "SKELLEFTEA",
+    "country": "SWEDEN",
+    "lat": 64.76667,
+    "lng": 20.95,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SESTO",
+    "name": "STOCKHOLM",
+    "country": "SWEDEN",
+    "lat": 59.33333,
+    "lng": 18.05,
+    "region": "SCAN",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SGSIN",
+    "name": "SINGAPORE",
+    "country": "SINGAPORE",
+    "lat": 1.28333,
+    "lng": 103.85,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SIKOP",
+    "name": "KOPER",
+    "country": "SLOVENIA",
+    "lat": 45.5479864,
+    "lng": 13.7304781,
+    "region": "ADR/CEMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SLFNA",
+    "name": "FREETOWN",
+    "country": "SIERRA LEONE",
+    "lat": 8.479004,
+    "lng": -13.26795,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SNDKR",
+    "name": "DAKAR",
+    "country": "SENEGAL",
+    "lat": 14.693425,
+    "lng": -17.447938,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SOBBO",
+    "name": "BERBERA",
+    "country": "SOMALIA",
+    "lat": 10.4386215,
+    "lng": 45.0134007,
+    "region": "East Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SOMGQ",
+    "name": "MOGADISHU",
+    "country": "SOMALIA",
+    "lat": 2.0349312,
+    "lng": 45.3419183,
+    "region": "East Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SRPBM",
+    "name": "PARAMARIBO",
+    "country": "SURINAME",
+    "lat": 5.8247628,
+    "lng": -55.1703941,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SVAQJ",
+    "name": "ACAJUTLA",
+    "country": "EL SALVADOR",
+    "lat": 13.5897967,
+    "lng": -89.8297601,
+    "region": "Central America",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SXPHI",
+    "name": "PHILIPSBURG",
+    "country": "SINT MAARTEN (DUTCH PART)",
+    "lat": 18.01667,
+    "lng": -63.03333,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "SYLTK",
+    "name": "LATTAKIA",
+    "country": "SYRIAN ARAB REPUBLIC",
+    "lat": 35.51667,
+    "lng": 35.78333,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TCPLS",
+    "name": "PROVIDENCIALES",
+    "country": "TURKS AND CAICOS ISLANDS",
+    "lat": 21.7778015,
+    "lng": -72.2611584,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TGLFW",
+    "name": "LOME",
+    "country": "TOGO",
+    "lat": 6.130419,
+    "lng": 1.215829,
+    "region": "West Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "THLCH",
+    "name": "LAEM CHABANG",
+    "country": "THAILAND",
+    "lat": 13.08333,
+    "lng": 100.88333,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "THPAT",
+    "name": "PAT BANGKOK",
+    "country": "THAILAND",
+    "lat": 13.7,
+    "lng": 100.56667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "THSBP",
+    "name": "SIAM BANGKOK PORT",
+    "country": "THAILAND",
+    "lat": 13.65,
+    "lng": 100.55,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "THSGZ",
+    "name": "SONGKHLA",
+    "country": "THAILAND",
+    "lat": 7.23333,
+    "lng": 100.56667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TLDIL",
+    "name": "DILI",
+    "country": "TIMOR-LESTE",
+    "lat": -8.55,
+    "lng": 125.56667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TOTBU",
+    "name": "NUKU'ALOFA",
+    "country": "TONGA",
+    "lat": -21.13333,
+    "lng": -175.2,
+    "region": "Fiji",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TRALI",
+    "name": "ALIAGA",
+    "country": "TURKIYE",
+    "lat": 38.8034265,
+    "lng": 26.9713731,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TRAYT",
+    "name": "ANTALYA",
+    "country": "TURKIYE",
+    "lat": 36.83333,
+    "lng": 30.6,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TRBDM",
+    "name": "BANDIRMA",
+    "country": "TURKIYE",
+    "lat": 40.35,
+    "lng": 27.96667,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TRDRC",
+    "name": "DERINCE",
+    "country": "TURKIYE",
+    "lat": 40.7574495,
+    "lng": 29.8307628,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TREYP",
+    "name": "EVYAP PORT",
+    "country": "TURKIYE",
+    "lat": 40.76667,
+    "lng": 29.7,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TRGEB",
+    "name": "GEBZE",
+    "country": "TURKIYE",
+    "lat": 40.78333,
+    "lng": 29.41667,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TRGEM",
+    "name": "GEMLIK",
+    "country": "TURKIYE",
+    "lat": 40.41667,
+    "lng": 29.15,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TRGIR",
+    "name": "GIRESUN",
+    "country": "TURKIYE",
+    "lat": 40.91667,
+    "lng": 38.38333,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TRISK",
+    "name": "ISKENDERUN",
+    "country": "TURKIYE",
+    "lat": 36.58333,
+    "lng": 36.16667,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TRIST",
+    "name": "ISTANBUL",
+    "country": "TURKIYE",
+    "lat": 41.01667,
+    "lng": 28.96667,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TRIZM",
+    "name": "IZMIR",
+    "country": "TURKIYE",
+    "lat": 38.41667,
+    "lng": 27.15,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TRLMA",
+    "name": "LIMAS",
+    "country": "TURKIYE",
+    "lat": 40.71667,
+    "lng": 29.88333,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TRMER",
+    "name": "MERSIN",
+    "country": "TURKIYE",
+    "lat": 36.71667,
+    "lng": 34.63333,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TRSSX",
+    "name": "SAMSUN",
+    "country": "TURKIYE",
+    "lat": 41.28333,
+    "lng": 36.33333,
+    "region": "EMED",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TTPOS",
+    "name": "PORT-OF-SPAIN",
+    "country": "TRINIDAD AND TOBAGO",
+    "lat": 10.65,
+    "lng": -61.51667,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TTPTS",
+    "name": "POINT LISAS",
+    "country": "TRINIDAD AND TOBAGO",
+    "lat": 10.3993799,
+    "lng": -61.4828808,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TWKEL",
+    "name": "KEELUNG",
+    "country": "TAIWAN",
+    "lat": 25.1317232,
+    "lng": 121.744652,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TWKHH",
+    "name": "KAOHSIUNG",
+    "country": "TAIWAN",
+    "lat": 22.6203348,
+    "lng": 120.3120375,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TZDAR",
+    "name": "DAR ES SALAAM",
+    "country": "TANZANIA, UNITED REPUBLIC OF",
+    "lat": -6.8,
+    "lng": 39.28333,
+    "region": "East Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "TZMYW",
+    "name": "MTWARA",
+    "country": "TANZANIA, UNITED REPUBLIC OF",
+    "lat": -10.2838146,
+    "lng": 40.1789136,
+    "region": "East Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "UAILK",
+    "name": "CHORNOMORSK",
+    "country": "UKRAINE",
+    "lat": 46.31667,
+    "lng": 30.66667,
+    "region": "B/SEA",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "UAODS",
+    "name": "ODESA",
+    "country": "UKRAINE",
+    "lat": 46.5,
+    "lng": 30.75,
+    "region": "B/SEA",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "UAYUZ",
+    "name": "PIVDENNYI",
+    "country": "UKRAINE",
+    "lat": 49.4319625,
+    "lng": 32.0220704,
+    "region": "B/SEA",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USBAL",
+    "name": "BALTIMORE",
+    "country": "UNITED STATES",
+    "lat": 39.28333,
+    "lng": -76.61667,
+    "region": "USEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USBOS",
+    "name": "BOSTON",
+    "country": "UNITED STATES",
+    "lat": 42.3588336,
+    "lng": -71.0578303,
+    "region": "USEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USCHS",
+    "name": "CHARLESTON",
+    "country": "UNITED STATES",
+    "lat": 32.7884363,
+    "lng": -79.9399309,
+    "region": "USEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USGPT",
+    "name": "GULFPORT",
+    "country": "UNITED STATES",
+    "lat": 30.3674198,
+    "lng": -89.0928155,
+    "region": "USEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USHOU",
+    "name": "HOUSTON",
+    "country": "UNITED STATES",
+    "lat": 29.75,
+    "lng": -95.35,
+    "region": "USEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USJAX",
+    "name": "JACKSONVILLE",
+    "country": "UNITED STATES",
+    "lat": 30.3262247,
+    "lng": -81.6579179,
+    "region": "USEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USLAX",
+    "name": "LOS ANGELES",
+    "country": "UNITED STATES",
+    "lat": 34.05,
+    "lng": -118.25,
+    "region": "USWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USLGB",
+    "name": "LONG BEACH",
+    "country": "UNITED STATES",
+    "lat": 33.76667,
+    "lng": -118.18333,
+    "region": "USWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USMIA",
+    "name": "MIAMI",
+    "country": "UNITED STATES",
+    "lat": 25.7741566,
+    "lng": -80.1935973,
+    "region": "USEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USMOB",
+    "name": "MOBILE",
+    "country": "UNITED STATES",
+    "lat": 30.6913462,
+    "lng": -88.0437509,
+    "region": "USEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USMSY",
+    "name": "NEW ORLEANS",
+    "country": "UNITED STATES",
+    "lat": 29.9561422,
+    "lng": -90.0733934,
+    "region": "USEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USNTD",
+    "name": "PORT HUENEME",
+    "country": "UNITED STATES",
+    "lat": 34.13333,
+    "lng": -119.18333,
+    "region": "USWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USNYC",
+    "name": "NEW YORK",
+    "country": "UNITED STATES",
+    "lat": 40.7,
+    "lng": -74.0,
+    "region": "USEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USOAK",
+    "name": "OAKLAND",
+    "country": "UNITED STATES",
+    "lat": 37.8044557,
+    "lng": -122.271356,
+    "region": "USWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USORF",
+    "name": "NORFOLK",
+    "country": "UNITED STATES",
+    "lat": 36.8493695,
+    "lng": -76.2899539,
+    "region": "USEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USPDX",
+    "name": "PORTLAND, OR",
+    "country": "UNITED STATES",
+    "lat": 45.5202471,
+    "lng": -122.674194,
+    "region": "USWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USPEF",
+    "name": "PORT EVERGLADES",
+    "country": "UNITED STATES",
+    "lat": 26.1,
+    "lng": -80.13333,
+    "region": "USEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USPHL",
+    "name": "PHILADELPHIA",
+    "country": "UNITED STATES",
+    "lat": 39.9527237,
+    "lng": -75.1635262,
+    "region": "USEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USSAV",
+    "name": "SAVANNAH",
+    "country": "UNITED STATES",
+    "lat": 32.0790074,
+    "lng": -81.0921335,
+    "region": "USEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "USSEA",
+    "name": "SEATTLE",
+    "country": "UNITED STATES",
+    "lat": 47.6038321,
+    "lng": -122.330062,
+    "region": "USWC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "UYMVD",
+    "name": "MONTEVIDEO",
+    "country": "URUGUAY",
+    "lat": -34.9058916,
+    "lng": -56.1913095,
+    "region": "SAEC",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "VCKTN",
+    "name": "KINGSTOWN, ST VINCENT",
+    "country": "SAINT VINCENT AND THE GRENADINES",
+    "lat": 13.13333,
+    "lng": -61.21667,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "VELAG",
+    "name": "LA GUAIRA",
+    "country": "VENEZUELA",
+    "lat": 10.6000384,
+    "lng": -66.9296405,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "VEPBL",
+    "name": "PUERTO CABELLO",
+    "country": "VENEZUELA",
+    "lat": 10.4677932,
+    "lng": -68.0436682,
+    "region": "Caribbean",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "VNDAD",
+    "name": "DA-NANG",
+    "country": "VIET NAM",
+    "lat": 16.06667,
+    "lng": 108.21667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "VNDNA",
+    "name": "DONG NAI",
+    "country": "VIET NAM",
+    "lat": 10.9182878,
+    "lng": 106.8481538,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "VNHPH",
+    "name": "HAIPHONG",
+    "country": "VIET NAM",
+    "lat": 20.85,
+    "lng": 106.68333,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "VNSGN",
+    "name": "HO CHI MINH CITY",
+    "country": "VIET NAM",
+    "lat": 10.76667,
+    "lng": 106.66667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "VNUIH",
+    "name": "QUINHON",
+    "country": "VIET NAM",
+    "lat": 13.76667,
+    "lng": 109.21667,
+    "region": "Intra Asia",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "WSAPW",
+    "name": "APIA",
+    "country": "SAMOA",
+    "lat": -13.8345235,
+    "lng": -171.7630955,
+    "region": "Fiji",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "YEADE",
+    "name": "ADEN",
+    "country": "YEMEN",
+    "lat": 12.789585,
+    "lng": 45.028504,
+    "region": "Red Sea",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "YEMKX",
+    "name": "MUKALLA",
+    "country": "YEMEN",
+    "lat": 14.5424624,
+    "lng": 49.1231345,
+    "region": "Red Sea",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "YTLON",
+    "name": "LONGONI",
+    "country": "MAYOTTE",
+    "lat": -12.71667,
+    "lng": 45.16667,
+    "region": "East Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ZACPT",
+    "name": "CAPE TOWN",
+    "country": "SOUTH AFRICA",
+    "lat": -33.91667,
+    "lng": 18.41667,
+    "region": "South Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ZADUR",
+    "name": "DURBAN",
+    "country": "SOUTH AFRICA",
+    "lat": -29.85,
+    "lng": 31.01667,
+    "region": "South Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ZAELS",
+    "name": "EAST LONDON",
+    "country": "SOUTH AFRICA",
+    "lat": -33.0191604,
+    "lng": 27.8998573,
+    "region": "South Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ZAPLZ",
+    "name": "PORT ELIZABETH",
+    "country": "SOUTH AFRICA",
+    "lat": -33.95,
+    "lng": 25.6,
+    "region": "South Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  },
+  {
+    "code": "ZAZBA",
+    "name": "COEGA",
+    "country": "SOUTH AFRICA",
+    "lat": -33.76667,
+    "lng": 25.66667,
+    "region": "South Africa",
+    "open_commerce": "X",
+    "open_cargo": "X"
+  }
+]
