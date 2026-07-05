@@ -1097,6 +1097,32 @@
         .btn-danger:hover {
             opacity: 0.9;
         }
+
+        /* Dark-themed Leaflet popup for service routes */
+        .route-popup .leaflet-popup-content-wrapper {
+            background: #0d1321;
+            border: 1px solid rgba(0, 210, 255, 0.25);
+            border-radius: 10px;
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7);
+            color: #e2e8f0;
+        }
+
+        .route-popup .leaflet-popup-tip {
+            background: #0d1321;
+        }
+
+        .route-popup .leaflet-popup-close-button {
+            color: #64748b !important;
+            font-size: 18px;
+        }
+
+        .route-popup .leaflet-popup-close-button:hover {
+            color: #ffffff !important;
+        }
+
+        .route-popup .leaflet-popup-content {
+            margin: 14px 18px 14px 18px;
+        }
     </style>
 </head>
 
@@ -1828,13 +1854,18 @@
             }
         }
 
-        // Compute and draw custom quadratic bezier curves for sequential layouts
+        // ═══════════════════════════════════════════════════════════
+        // Draw service route with Turning Port detection.
+        // Outbound leg (forward) = dark yellow, Return leg = dark blue.
+        // Click any segment to open a rich dark popup.
+        // ═══════════════════════════════════════════════════════════
         function drawServiceRoute(serviceObj) {
             clearServiceCurves();
 
             const portsInService = serviceObj.ports || [];
             if (portsInService.length < 2) return;
 
+            // Resolve lat/lng for each port code
             const latlngs = [];
             portsInService.forEach(code => {
                 const pt = PORTS_DATA.find(p => p.code === code);
@@ -1842,67 +1873,130 @@
                     latlngs.push({ lat: pt.lat, lng: pt.lng, code: code });
                 }
             });
-
             if (latlngs.length < 2) return;
 
+            // ── 1. Determine net travel direction ──────────────────────
+            // Walk the route, accumulating angular longitude steps
+            // (wrapping at ±180). Net positive → mostly eastbound (→Americas);
+            // net negative → mostly westbound (→Europe).
+            let cumLng = 0;
+            let walkLng = latlngs[0].lng;
+            for (let i = 1; i < latlngs.length; i++) {
+                let step = latlngs[i].lng - walkLng;
+                if (step > 180) step -= 360;
+                if (step < -180) step += 360;
+                cumLng += step;
+                walkLng += step;
+            }
+            const isEastbound = cumLng > 0;
+
+            // ── 2. Find Turning Port index ─────────────────────────────
+            // For westbound (Europe): turning port = port with minimum
+            // accumulated longitude offset (furthest west).
+            // For eastbound (Americas): turning port = maximum offset.
+            let turningIdx = Math.max(1, Math.floor(latlngs.length / 2));
+            let extremeVal = 0;   // cumulative offset at turning port
+            let runLng = 0;     // running cumulative offset from start
+            let prevLng = latlngs[0].lng;
+            for (let i = 1; i < latlngs.length - 1; i++) {
+                let step = latlngs[i].lng - prevLng;
+                if (step > 180) step -= 360;
+                if (step < -180) step += 360;
+                runLng += step;
+                prevLng = latlngs[i].lng + (step - (latlngs[i].lng - prevLng)); // keep the unwrapped value
+                prevLng = latlngs[i].lng; // OK – we use runLng as the tracker
+
+                if (isEastbound ? (runLng > extremeVal) : (runLng < extremeVal)) {
+                    extremeVal = runLng;
+                    turningIdx = i;
+                }
+            }
+
+            // ── 3. Build rich popup HTML shared across all segments ────
+            const OUTBOUND_COLOR = '#d97706'; // amber/gold
+            const RETURN_COLOR = '#1d4ed8'; // deep blue
+            const TURNING_COLOR = '#7c3aed'; // purple accent
+
+            const portBadgesHtml = latlngs.map((p, idx) => {
+                const isTurning = idx === turningIdx;
+                const isOutbound = idx <= turningIdx;
+                const bg = isTurning ? TURNING_COLOR
+                    : isOutbound ? OUTBOUND_COLOR
+                        : RETURN_COLOR;
+                const label = isTurning ? `${p.code} ↩` : p.code;
+                return `<span style="background:${bg};color:#fff;padding:2px 6px;border-radius:3px;font-size:10px;font-weight:700;white-space:nowrap;">${label}</span>`;
+            }).join(' ');
+
+            const popupHtml = `
+            <div style="font-family:'Outfit',sans-serif;min-width:300px;max-width:440px;">
+              <div style="font-weight:800;font-size:15px;color:#00d2ff;padding-bottom:9px;margin-bottom:9px;border-bottom:1px solid rgba(0,210,255,0.25);">
+                ${serviceObj.service}
+              </div>
+              <div style="display:flex;flex-wrap:wrap;gap:10px 22px;font-size:12px;margin-bottom:10px;color:#cbd5e1;">
+                <span><b style="color:#94a3b8;">Code:</b>&nbsp;${serviceObj.svc_code || 'N/A'}</span>
+                <span><b style="color:#94a3b8;">Tally:</b>&nbsp;${serviceObj.tally || 'N/A'}</span>
+                <span><b style="color:#94a3b8;">Lashing:</b>&nbsp;${serviceObj.lashing || 'N/A'}</span>
+              </div>
+              <div style="font-size:10px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:#64748b;margin-bottom:6px;display:flex;gap:6px;align-items:center;flex-wrap:wrap;">
+                Port Rotation (${latlngs.length} ports)
+                <span style="background:${OUTBOUND_COLOR};color:#fff;padding:1px 6px;border-radius:3px;">▶ Outbound</span>
+                <span style="background:${RETURN_COLOR};color:#fff;padding:1px 6px;border-radius:3px;">◀ Return</span>
+                <span style="background:${TURNING_COLOR};color:#fff;padding:1px 6px;border-radius:3px;">↩ Turning</span>
+              </div>
+              <div style="display:flex;flex-wrap:wrap;gap:4px;line-height:1.9;">${portBadgesHtml}</div>
+            </div>`;
+
+            // ── 4. Draw bezier curve segments ──────────────────────────
             for (let i = 0; i < latlngs.length - 1; i++) {
                 const p1 = latlngs[i];
                 const p2 = latlngs[i + 1];
 
-                // Shortest angular travel logic over maxBounds edges
-                let targetLng = p2.lng;
-                let diff = targetLng - p1.lng;
-                if (diff > 180) {
-                    targetLng -= 360;
-                } else if (diff < -180) {
-                    targetLng += 360;
-                }
+                const isOutboundSeg = i < turningIdx;
+                const segColor = isOutboundSeg ? OUTBOUND_COLOR : RETURN_COLOR;
 
+                // Shortest-path longitude wrapping
+                let targetLng = p2.lng;
+                let diffL = targetLng - p1.lng;
+                if (diffL > 180) targetLng -= 360;
+                if (diffL < -180) targetLng += 360;
+
+                // Quadratic bezier interpolation
                 const steps = 30;
                 const curveLatLngs = [];
-
                 const midLat = (p1.lat + p2.lat) / 2;
                 const midLng = (p1.lng + targetLng) / 2;
-
                 const curveness = 0.15;
-                const offsetLat = -(targetLng - p1.lng) * curveness;
-                const offsetLng = (p2.lat - p1.lat) * curveness;
-
-                const ctrlLat = midLat + offsetLat;
-                const ctrlLng = midLng + offsetLng;
+                const ctrlLat = midLat - (targetLng - p1.lng) * curveness;
+                const ctrlLng = midLng + (p2.lat - p1.lat) * curveness;
 
                 for (let s = 0; s <= steps; s++) {
                     const t = s / steps;
-                    const term0 = (1 - t) * (1 - t);
-                    const term1 = 2 * (1 - t) * t;
-                    const term2 = t * t;
-
-                    const lat = term0 * p1.lat + term1 * ctrlLat + term2 * p2.lat;
-                    const lng = term0 * p1.lng + term1 * ctrlLng + term2 * targetLng;
-
-                    let finalLng = lng;
-                    if (finalLng < -30) finalLng += 360;
-                    if (finalLng > 330) finalLng -= 360;
-
-                    curveLatLngs.push([lat, finalLng]);
+                    const t0 = (1 - t) * (1 - t);
+                    const t1 = 2 * (1 - t) * t;
+                    const t2 = t * t;
+                    let lat = t0 * p1.lat + t1 * ctrlLat + t2 * p2.lat;
+                    let lng = t0 * p1.lng + t1 * ctrlLng + t2 * targetLng;
+                    if (lng < -30) lng += 360;
+                    if (lng > 330) lng -= 360;
+                    curveLatLngs.push([lat, lng]);
                 }
 
                 const poly = L.polyline(curveLatLngs, {
-                    color: '#00d2ff',
+                    color: segColor,
                     weight: 3.5,
-                    opacity: 0.85,
+                    opacity: 0.9,
                     className: 'route-curve'
                 }).addTo(map);
 
-                // Add interactive popup/tooltip showing exact details info
-                poly.bindTooltip(`
-                    <div style="display:flex; flex-direction:column; gap:4px; font-family:'Outfit'; font-size:12px; padding:2px; color:#ffffff;">
-                        <span style="font-weight:700; color:#00d2ff;">${serviceObj.service}</span>
-                        <span>Leg: ${i + 1} / ${latlngs.length - 1} (${p1.code} ➔ ${p2.code})</span>
-                        <span>Tally: ${serviceObj.tally || 'None'}</span>
-                        <span>Lashing: ${serviceObj.lashing || 'None'}</span>
-                    </div>
-                `, { sticky: true });
+                // Hover tooltip (brief)
+                poly.bindTooltip(
+                    `<span style="font-family:'Outfit';font-size:12px;color:#00d2ff;font-weight:700;">${serviceObj.service}</span>
+                     <br><span style="font-size:11px;color:#e2e8f0;">${p1.code} ➔ ${p2.code} &nbsp; ${isOutboundSeg ? '▶ Outbound' : '◀ Return'}</span>`,
+                    { sticky: true }
+                );
+
+                // Click popup (rich detail)
+                poly.bindPopup(popupHtml, { maxWidth: 460, className: 'route-popup' });
 
                 activeServiceCurves.push(poly);
             }
