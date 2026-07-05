@@ -1123,6 +1123,28 @@
         .route-popup .leaflet-popup-content {
             margin: 14px 18px 14px 18px;
         }
+
+        /* High-contrast tooltip for route lines hover */
+        .route-tooltip-theme {
+            background-color: #ffffff !important;
+            border: 2px solid #00d2ff !important;
+            border-radius: 6px !important;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25) !important;
+            padding: 8px 12px !important;
+        }
+
+        .route-tooltip-theme::before {
+            border-right-color: #00d2ff !important;
+        }
+
+        .route-tooltip-theme-content {
+            font-family: 'Outfit', sans-serif;
+            color: #0f172a !important;
+            /* Extremely high contrast dark slate */
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1.4;
+        }
     </style>
 </head>
 
@@ -1920,10 +1942,17 @@
             const portBadgesHtml = latlngs.map((p, idx) => {
                 const isTurning = idx === turningIdx;
                 const isOutbound = idx <= turningIdx;
+                const isKorean = ['KRPUS', 'KRKAN', 'KRINC'].includes(p.code.toUpperCase());
+
                 const bg = isTurning ? TURNING_COLOR
                     : isOutbound ? OUTBOUND_COLOR
                         : RETURN_COLOR;
                 const label = isTurning ? `${p.code} ↩` : p.code;
+
+                // High visual highlight for Korean core ports (KRPUS, KRKAN, KRINC)
+                if (isKorean) {
+                    return `<span style="background:${bg};color:#ffffff;padding:2px 7px;border-radius:4px;font-size:11px;font-weight:900;white-space:nowrap;border:2px solid #10b981;box-shadow:0 0 8px rgba(16,185,129,0.7);z-index:20;">🇰🇷 ${label}</span>`;
+                }
                 return `<span style="background:${bg};color:#fff;padding:2px 6px;border-radius:3px;font-size:10px;font-weight:700;white-space:nowrap;">${label}</span>`;
             }).join(' ');
 
@@ -1988,11 +2017,14 @@
                     className: 'route-curve'
                 }).addTo(map);
 
-                // Hover tooltip (brief)
+                // Hover tooltip with high-contrast theme
                 poly.bindTooltip(
-                    `<span style="font-family:'Outfit';font-size:12px;color:#00d2ff;font-weight:700;">${serviceObj.service}</span>
-                     <br><span style="font-size:11px;color:#e2e8f0;">${p1.code} ➔ ${p2.code} &nbsp; ${isOutboundSeg ? '▶ Outbound' : '◀ Return'}</span>`,
-                    { sticky: true }
+                    `<div class="route-tooltip-theme-content">
+                        <strong style="color: #1e3a8a; font-size: 13px;">${serviceObj.service}</strong><br>
+                        <span style="color: #334155; font-weight: 600;">${p1.code} ➔ ${p2.code}</span> &nbsp;
+                        <span style="color: ${segColor}; font-weight: 700;">${isOutboundSeg ? '▶ Outbound' : '◀ Return'}</span>
+                    </div>`,
+                    { sticky: true, className: 'route-tooltip-theme' }
                 );
 
                 // Click popup (rich detail)
