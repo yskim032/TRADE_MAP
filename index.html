@@ -1617,8 +1617,9 @@
                         const isKR = port.code.toUpperCase().startsWith('KR');
                         const badge = document.createElement('span');
                         badge.className = `service-badge ${isKR ? 'kr-badge' : ''}`;
-                        badge.textContent = svc.svc_code || svc.service.split(' ')[0];
-                        badge.title = `${svc.service} (Tally: ${svc.tally}, Lashing: ${svc.lashing})`;
+                        const fullName = svc.service || svc.svc_code || 'N/A';
+                        badge.textContent = fullName.length > 25 ? fullName.slice(0, 24) + '…' : fullName;
+                        badge.title = `[${svc.svc_code}] ${svc.service}\nTally: ${svc.tally || 'N/A'} | Lashing: ${svc.lashing || 'N/A'}`;
                         badge.onclick = (event) => {
                             event.stopPropagation();
                             drawServiceRoute(svc);
