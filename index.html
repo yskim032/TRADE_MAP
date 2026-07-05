@@ -932,6 +932,16 @@
 
         // Populate regions and colors
         function initRegions() {
+            // Convert data longitudes to align on a Pacific-centered window [-30, 330]
+            // Any longitude less than -30 degrees is shifted relative to east (+360)
+            PORTS_DATA.forEach(port => {
+                if (port.lng !== null) {
+                    if (port.lng < -30) {
+                        port.lng += 360;
+                    }
+                }
+            });
+
             // Find all unique regions in the dataset
             PORTS_DATA.forEach(port => {
                 const reg = port.region;
@@ -987,29 +997,22 @@
             return lower.concat(upper);
         }
 
-        // Handle regions crossing the Antimeridian (Dateline)
+        // Simpler getAdjustedPorts since data is already bounds-adjusted
         function getAdjustedPorts(ports) {
-            const minLng = Math.min(...ports.map(p => p.lng));
-            const maxLng = Math.max(...ports.map(p => p.lng));
-            if (maxLng - minLng > 180) {
-                return ports.map(p => ({
-                    ...p,
-                    lng: p.lng < 0 ? p.lng + 360 : p.lng
-                }));
-            }
             return ports;
         }
 
         function initMap() {
-            const corner1 = L.latLng(-85, -180);
-            const corner2 = L.latLng(85, 180);
+            // Define bounds spanning E -30 to W -30 (which shifted makes 330)
+            const corner1 = L.latLng(-85, -30);
+            const corner2 = L.latLng(85, 330);
             const bounds = L.latLngBounds(corner1, corner2);
 
             map = L.map('map', {
-                center: [20, 10],
+                center: [20, 150], // Center on Pacific (between Japan and USA)
                 zoom: 3,
                 zoomControl: false,
-                maxBounds: bounds, // Restrict map view inside single world boundary
+                maxBounds: bounds,
                 maxBoundsViscosity: 0.8
             });
 
@@ -1021,7 +1024,7 @@
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
                 subdomains: 'abcd',
                 maxZoom: 19,
-                noWrap: true, // Prevents duplicate maps across screen
+                noWrap: false, // Allow default drawing but bounds constraint keeps it single-view centered
                 bounds: bounds
             }).addTo(map);
 
