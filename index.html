@@ -932,16 +932,6 @@
 
         // Populate regions and colors
         function initRegions() {
-            // Convert data longitudes to align on a Pacific-centered window [-30, 330]
-            // Any longitude less than -30 degrees is shifted relative to east (+360)
-            PORTS_DATA.forEach(port => {
-                if (port.lng !== null) {
-                    if (port.lng < -30) {
-                        port.lng += 360;
-                    }
-                }
-            });
-
             // Find all unique regions in the dataset
             PORTS_DATA.forEach(port => {
                 const reg = port.region;
@@ -997,23 +987,25 @@
             return lower.concat(upper);
         }
 
-        // Simpler getAdjustedPorts since data is already bounds-adjusted
+        // Handle regions crossing the Antimeridian (Dateline) by shifting negative longitudes
         function getAdjustedPorts(ports) {
+            const minLng = Math.min(...ports.map(p => p.lng));
+            const maxLng = Math.max(...ports.map(p => p.lng));
+            if (maxLng - minLng > 180) {
+                return ports.map(p => ({
+                    ...p,
+                    lng: p.lng < 0 ? p.lng + 360 : p.lng
+                }));
+            }
             return ports;
         }
 
         function initMap() {
-            // Define bounds spanning E -30 to W -30 (which shifted makes 330)
-            const corner1 = L.latLng(-85, -30);
-            const corner2 = L.latLng(85, 330);
-            const bounds = L.latLngBounds(corner1, corner2);
-
             map = L.map('map', {
-                center: [20, 150], // Center on Pacific (between Japan and USA)
+                center: [20, 160], // Center on Pacific (between Japan and USA)
                 zoom: 3,
                 zoomControl: false,
-                maxBounds: bounds,
-                maxBoundsViscosity: 0.8
+                worldCopyJump: false // Standard clone rendering works better for zoom 3
             });
 
             L.control.zoom({
@@ -1024,54 +1016,63 @@
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
                 subdomains: 'abcd',
                 maxZoom: 19,
-                noWrap: false, // Allow default drawing but bounds constraint keeps it single-view centered
-                bounds: bounds
+                noWrap: false
             }).addTo(map);
 
-            // Draw port points on the map
+            // Draw port points (cloned to 3 world views to support seamless wrapping)
             PORTS_DATA.forEach(port => {
                 if (port.lat !== null && port.lng !== null) {
                     const color = regionColors[port.region];
+                    const shifts = [-360, 0, 360];
+                    const instanceGroup = [];
 
-                    const marker = L.circleMarker([port.lat, port.lng], {
-                        radius: 5,
-                        fillColor: color,
-                        color: "#0b0f19",
-                        weight: 1,
-                        opacity: 0.8,
-                        fillOpacity: 0.75,
-                        pane: 'markerPane'
+                    shifts.forEach(shift => {
+                        const marker = L.circleMarker([port.lat, port.lng + shift], {
+                            radius: 5,
+                            fillColor: color,
+                            color: "#0b0f19",
+                            weight: 1,
+                            opacity: 0.8,
+                            fillOpacity: 0.75,
+                            pane: 'markerPane'
+                        });
+
+                        // Interactive actions
+                        marker.on('click', () => {
+                            selectPort(port);
+                        });
+
+                        marker.on('mouseover', function (e) {
+                            instanceGroup.forEach(m => {
+                                m.openPopup();
+                                m.setStyle({ radius: 8, weight: 2, color: "#ffffff" });
+                            });
+                        });
+
+                        marker.on('mouseout', function (e) {
+                            instanceGroup.forEach(m => {
+                                m.closePopup();
+                                m.setStyle({ radius: 5, weight: 1, color: "#0b0f19" });
+                            });
+                        });
+
+                        const popupContent = `
+                            <div class="popup-h3">${port.name}</div>
+                            <div class="popup-p"><b>Code:</b> ${port.code}</div>
+                            <div class="popup-p"><b>Country:</b> ${port.country}</div>
+                            <div class="popup-p" style="color:${color}"><b>Region:</b> ${port.region}</div>
+                        `;
+                        marker.bindPopup(popupContent, { closeButton: false, offset: L.point(0, -5) });
+                        marker.addTo(map);
+
+                        instanceGroup.push(marker);
                     });
 
-                    // Interactive actions
-                    marker.on('click', () => {
-                        selectPort(port);
-                    });
-
-                    marker.on('mouseover', function (e) {
-                        this.openPopup();
-                        this.setStyle({ radius: 8, weight: 2, color: "#ffffff" });
-                    });
-
-                    marker.on('mouseout', function (e) {
-                        this.closePopup();
-                        this.setStyle({ radius: 5, weight: 1, color: "#0b0f19" });
-                    });
-
-                    const popupContent = `
-                        <div class="popup-h3">${port.name}</div>
-                        <div class="popup-p"><b>Code:</b> ${port.code}</div>
-                        <div class="popup-p"><b>Country:</b> ${port.country}</div>
-                        <div class="popup-p" style="color:${color}"><b>Region:</b> ${port.region}</div>
-                    `;
-                    marker.bindPopup(popupContent, { closeButton: false, offset: L.point(0, -5) });
-                    marker.addTo(map);
-
-                    markerMap[port.code] = marker;
+                    markerMap[port.code] = instanceGroup; // Store array of markers
                 }
             });
 
-            // Pre-calculate Convex Hulls for all regions and store as layers
+            // Pre-calculate Convex Hulls for all regions and store as layers (3 world view copies)
             Object.keys(regionGroups).forEach(regName => {
                 let ports = regionGroups[regName].filter(p => p.lat !== null && p.lng !== null);
 
@@ -1079,48 +1080,56 @@
                     ports = getAdjustedPorts(ports);
                 }
 
+                const color = regionColors[regName];
+                const shifts = [-360, 0, 360];
+                const polyInstances = [];
+
                 if (ports.length >= 3) {
                     const hullPoints = getConvexHull(ports);
-                    const latLngs = hullPoints.map(p => [p.lat, p.lng]);
-                    const color = regionColors[regName];
 
-                    const poly = L.polygon(latLngs, {
-                        color: color,
-                        weight: 2,
-                        fillColor: color,
-                        fillOpacity: 0.05,
-                        opacity: 0.35,
-                        dashArray: '5, 5'
+                    shifts.forEach(shift => {
+                        const latLngs = hullPoints.map(p => [p.lat, p.lng + shift]);
+                        const poly = L.polygon(latLngs, {
+                            color: color,
+                            weight: 2,
+                            fillColor: color,
+                            fillOpacity: 0.05,
+                            opacity: 0.35,
+                            dashArray: '5, 5'
+                        });
+
+                        poly.on('click', () => {
+                            selectRegion(regName, true, true);
+                        });
+
+                        polyInstances.push(poly);
                     });
-
-                    poly.on('click', () => {
-                        selectRegion(regName, true, true);
-                    });
-
-                    polylinesMap[regName] = poly;
                 } else if (ports.length > 0) {
                     // For regions with only 1 or 2 ports, draw a bounding circle cover
                     const points = ports.map(p => L.latLng(p.lat, p.lng));
                     const bounds = L.latLngBounds(points);
                     const center = bounds.getCenter();
-                    const color = regionColors[regName];
 
-                    const poly = L.circle(center, {
-                        radius: 150000, // 150km radius circle
-                        color: color,
-                        weight: 2,
-                        fillColor: color,
-                        fillOpacity: 0.05,
-                        opacity: 0.35,
-                        dashArray: '5, 5'
+                    shifts.forEach(shift => {
+                        const poly = L.circle([center.lat, center.lng + shift], {
+                            radius: 150000, // 150km radius circle
+                            color: color,
+                            weight: 2,
+                            fillColor: color,
+                            fillOpacity: 0.05,
+                            opacity: 0.35,
+                            dashArray: '5, 5'
+                        });
+
+                        poly.on('click', () => {
+                            selectRegion(regName, true, true);
+                        });
+
+                        polyInstances.push(poly);
                     });
-
-                    poly.on('click', () => {
-                        selectRegion(regName, true, true);
-                    });
-
-                    polylinesMap[regName] = poly;
                 }
+
+                polylinesMap[regName] = polyInstances; // Store array of layers
             });
 
             // Initial rendering of highlight shapes
@@ -1130,33 +1139,43 @@
         // Control which polygon overlays are showing
         function updateRegionLayers() {
             // Remove all polygons first
-            Object.values(polylinesMap).forEach(poly => map.removeLayer(poly));
+            Object.values(polylinesMap).forEach(instances => {
+                if (Array.isArray(instances)) {
+                    instances.forEach(p => map.removeLayer(p));
+                }
+            });
 
             if (showAllRegionsMode) {
                 // Add all polygons with standard styling
                 Object.keys(polylinesMap).forEach(reg => {
-                    const poly = polylinesMap[reg];
-                    poly.setStyle({
-                        fillOpacity: 0.06,
-                        opacity: 0.3,
-                        weight: 1.5,
-                        dashArray: '5, 5'
-                    });
-                    poly.addTo(map);
+                    const instances = polylinesMap[reg];
+                    if (Array.isArray(instances)) {
+                        instances.forEach(poly => {
+                            poly.setStyle({
+                                fillOpacity: 0.06,
+                                opacity: 0.3,
+                                weight: 1.5,
+                                dashArray: '5, 5'
+                            });
+                            poly.addTo(map);
+                        });
+                    }
                 });
             }
 
             // Highlight the active region with high prominence
             if (activeRegion && showActiveRegionHighlightMode) {
-                const poly = polylinesMap[activeRegion];
-                if (poly) {
-                    poly.setStyle({
-                        fillOpacity: 0.18,
-                        opacity: 0.9,
-                        weight: 3,
-                        dashArray: null // solid border
+                const instances = polylinesMap[activeRegion];
+                if (Array.isArray(instances)) {
+                    instances.forEach(poly => {
+                        poly.setStyle({
+                            fillOpacity: 0.18,
+                            opacity: 0.9,
+                            weight: 3,
+                            dashArray: null // solid border
+                        });
+                        poly.addTo(map);
                     });
-                    poly.addTo(map);
                 }
             }
         }
@@ -1369,9 +1388,30 @@
                 let ports = regionGroups[activeRegion].filter(p => p.lat !== null && p.lng !== null);
                 if (ports.length > 0) {
                     ports = getAdjustedPorts(ports);
+
+                    // Standard bounds centering based on normal values
                     const latLngs = ports.map(p => L.latLng(p.lat, p.lng));
                     const bounds = L.latLngBounds(latLngs);
-                    map.flyToBounds(bounds, { padding: [50, 50], maxZoom: 10, duration: 1.2 });
+
+                    // Keep center Lng wrapped to current viewport to avoid hard shifts
+                    const currentCenter = map.getCenter();
+                    let optCenter = bounds.getCenter();
+
+                    // Simple mod match to center on the right side if user has panned
+                    let shiftedLng = optCenter.lng;
+                    while (Math.abs(shiftedLng - currentCenter.lng) > 180) {
+                        if (shiftedLng < currentCenter.lng) shiftedLng += 360;
+                        else shiftedLng -= 360;
+                    }
+
+                    const spanLat = bounds.getNorth() - bounds.getSouth();
+                    const spanLng = bounds.getEast() - bounds.getWest();
+                    const newBounds = L.latLngBounds(
+                        [optCenter.lat - spanLat / 2, shiftedLng - spanLng / 2],
+                        [optCenter.lat + spanLat / 2, shiftedLng + spanLng / 2]
+                    );
+
+                    map.flyToBounds(newBounds, { padding: [50, 50], maxZoom: 10, duration: 1.2 });
                 }
             }
         }
@@ -1379,40 +1419,42 @@
         // Dim map markers that are not in the active region
         function dimUnselectedRegionMarkers() {
             PORTS_DATA.forEach(port => {
-                const marker = markerMap[port.code];
-                if (!marker) return;
+                const markers = markerMap[port.code];
+                if (!markers || !Array.isArray(markers)) return;
 
                 const color = regionColors[port.region];
 
-                if (!activeRegion) {
-                    // Reset to normal opacity
-                    marker.setStyle({
-                        fillColor: color,
-                        opacity: 0.8,
-                        fillOpacity: 0.75
-                    });
-                } else if (port.region === activeRegion) {
-                    // Highlight marker
-                    marker.setStyle({
-                        fillColor: color,
-                        opacity: 1.0,
-                        fillOpacity: 0.95,
-                        radius: 6
-                    });
-                } else {
-                    // Dim marker
-                    marker.setStyle({
-                        fillColor: color,
-                        opacity: 0.2,
-                        fillOpacity: 0.15,
-                        radius: 4
-                    });
-                }
+                markers.forEach(marker => {
+                    if (!activeRegion) {
+                        // Reset to normal opacity
+                        marker.setStyle({
+                            fillColor: color,
+                            opacity: 0.8,
+                            fillOpacity: 0.75
+                        });
+                    } else if (port.region === activeRegion) {
+                        // Highlight marker
+                        marker.setStyle({
+                            fillColor: color,
+                            opacity: 1.0,
+                            fillOpacity: 0.95,
+                            radius: 6
+                        });
+                    } else {
+                        // Dim marker
+                        marker.setStyle({
+                            fillColor: color,
+                            opacity: 0.2,
+                            fillOpacity: 0.15,
+                            radius: 4
+                        });
+                    }
+                });
             });
         }
 
         // Handle Selected Port Switching
-        let currentPulsarIcon = null;
+        let currentPulsarIcon = []; // Now an array of pulsar layers
         function selectPort(port, changeTab = true) {
             selectedPort = port;
 
@@ -1458,34 +1500,61 @@
             // Setup Fly button
             document.getElementById('det-fly-btn').onclick = () => flyToPort(port);
 
-            // Add pulsar overlay to mapping
-            if (currentPulsarIcon) {
-                map.removeLayer(currentPulsarIcon);
+            // Add pulsar overlay to mapping (across all 3 world copies)
+            if (currentPulsarIcon.length > 0) {
+                currentPulsarIcon.forEach(layer => map.removeLayer(layer));
+                currentPulsarIcon = [];
             }
 
             const regionColor = regionColors[port.region];
-            const pulsarIcon = L.divIcon({
-                className: 'glowing-pulsar',
-                html: `<div style="--curr-color: ${regionColor};"></div>`,
-                iconSize: [8, 8],
-                iconAnchor: [4, 4]
-            });
+            const shifts = [-360, 0, 360];
 
-            currentPulsarIcon = L.marker([port.lat, port.lng], { icon: pulsarIcon, zIndexOffset: 1000 }).addTo(map);
+            shifts.forEach(shift => {
+                const pulsarIcon = L.divIcon({
+                    className: 'glowing-pulsar',
+                    html: `<div style="--curr-color: ${regionColor};"></div>`,
+                    iconSize: [8, 8],
+                    iconAnchor: [4, 4]
+                });
+
+                const pulsarMarker = L.marker([port.lat, port.lng + shift], { icon: pulsarIcon, zIndexOffset: 1000 }).addTo(map);
+                currentPulsarIcon.push(pulsarMarker);
+            });
 
             // Center map on port
             flyToPort(port);
         }
 
         function flyToPort(port) {
-            map.flyTo([port.lat, port.lng], 9, {
+            // Find closest clone version to the current map longitude center
+            const currentCenterLng = map.getCenter().lng;
+            const shifts = [-360, 0, 360];
+
+            let bestLng = port.lng;
+            let minDiff = Infinity;
+
+            shifts.forEach(shift => {
+                const checkLng = port.lng + shift;
+                const diff = Math.abs(checkLng - currentCenterLng);
+                if (diff < minDiff) {
+                    minDiff = diff;
+                    bestLng = checkLng;
+                }
+            });
+
+            map.flyTo([port.lat, bestLng], 9, {
                 animate: true,
                 duration: 1.2
             });
-            // Show popup
-            const marker = markerMap[port.code];
-            if (marker) {
-                setTimeout(() => marker.openPopup(), 1200);
+
+            // Show popup on the matching closest marker instance
+            const markers = markerMap[port.code];
+            if (markers && Array.isArray(markers)) {
+                // Find the marker that matches bestLng
+                const bestMarker = markers.find(m => Math.abs(m.getLatLng().lng - bestLng) < 1.0);
+                if (bestMarker) {
+                    setTimeout(() => bestMarker.openPopup(), 1200);
+                }
             }
         }
 
