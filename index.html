@@ -1001,11 +1001,16 @@
         }
 
         function initMap() {
-            // Dark themes look high-fidelity. Let's use CartoDB Dark Matter
+            const corner1 = L.latLng(-85, -180);
+            const corner2 = L.latLng(85, 180);
+            const bounds = L.latLngBounds(corner1, corner2);
+
             map = L.map('map', {
                 center: [20, 10],
                 zoom: 3,
-                zoomControl: false
+                zoomControl: false,
+                maxBounds: bounds, // Restrict map view inside single world boundary
+                maxBoundsViscosity: 0.8
             });
 
             L.control.zoom({
@@ -1015,7 +1020,9 @@
             L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
                 subdomains: 'abcd',
-                maxZoom: 19
+                maxZoom: 19,
+                noWrap: true, // Prevents duplicate maps across screen
+                bounds: bounds
             }).addTo(map);
 
             // Draw port points on the map
